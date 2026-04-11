@@ -1,4 +1,5 @@
 import type { Tool, PrivacyFlag, SavedView } from "./types";
+import { newTools } from "./new-tools";
 
 function derivePrivacyFlag(privacyLevel: Tool["privacy_level"]): PrivacyFlag {
   if (privacyLevel === "High") return "District Ready";
@@ -845,7 +846,13 @@ listing_tier: "basic", is_featured: false, featured_rank: null, is_sponsored: fa
   },
 ];
 
-export const tools: Tool[] = rawTools.map((t) => ({
+// Merge original 25 tools with 39 new tools
+const allRawTools = [
+  ...rawTools,
+  ...newTools.map((t, i) => ({ ...t, id: String(26 + i) })),
+];
+
+export const tools: Tool[] = allRawTools.map((t) => ({
   ...t,
   privacy_flag: derivePrivacyFlag(t.privacy_level),
 }));
