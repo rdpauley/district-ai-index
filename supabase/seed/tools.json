@@ -1,0 +1,2283 @@
+[
+  {
+    "name": "MagicSchool AI",
+    "slug": "magicschool-ai",
+    "vendor": "MagicSchool",
+    "description": "AI-powered lesson planning and administrative task automation built specifically for K–12 educators.",
+    "overview": "MagicSchool AI provides over 60 AI tools designed specifically for teachers, covering lesson planning, differentiation, assessment creation, IEP drafting, and communication. It is one of the most comprehensive AI platforms built for K–12 education with a strong focus on reducing teacher workload.",
+    "why_it_matters": "Built specifically for teachers; reduces planning time significantly.",
+    "website_url": "https://magicschool.ai",
+    "affiliate_url": "https://magicschool.ai?ref=dai",
+    "logo_url": "/logos/magicschool.svg",
+    "ease_of_use_score": 9,
+    "instructional_value_score": 9,
+    "privacy_score": 7,
+    "accessibility_score": 7,
+    "overall_score": 8.4,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free tier with limited uses. Premium at $9.99/mo per teacher. District pricing available.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Moderate",
+    "grade_levels": [
+      "K-2",
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Instructional Coaches",
+      "Curriculum Leaders"
+    ],
+    "categories": [
+      "Lesson Planning",
+      "Admin Tasks"
+    ],
+    "best_for": [
+      "Lesson planning",
+      "Differentiation",
+      "IEP drafting",
+      "Assessment creation",
+      "Parent communication"
+    ],
+    "not_ideal_for": [
+      "Student-facing AI interactions",
+      "Real-time classroom polling",
+      "Video content creation"
+    ],
+    "key_features": [
+      "60+ AI tools for educators",
+      "Lesson plan generator",
+      "Rubric builder",
+      "IEP assistant",
+      "Text rewriter by grade level",
+      "Quiz generator"
+    ],
+    "instructional_fit": "Excellent for reducing teacher planning time. Supports UDL-aligned differentiation and can generate materials across Bloom's taxonomy levels.",
+    "implementation_notes": "No LMS integration required for basic use. Supports Google and Clever SSO. Can be deployed in under a week with minimal IT support.",
+    "privacy_notes": "Education-focused but still AI-based. SOC 2 Type II compliant. Student data is never used for model training. Signed DPAs available for districts. COPPA and FERPA compliant.",
+    "accessibility_notes": "WCAG 2.1 AA compliant interface. Generated content can be adapted for reading level and language. Moderate overall accessibility posture.",
+    "admin_integration_notes": "Admin dashboard for usage monitoring. Supports district-wide deployment with role-based access. API available for enterprise customers.",
+    "editorial_verdict": "One of the most mature and teacher-specific AI platforms available. Excellent breadth of tools makes it a top recommendation for districts beginning their AI journey.",
+    "tags": [
+      "lesson planning",
+      "differentiation",
+      "AI writing",
+      "assessment",
+      "IEP",
+      "admin"
+    ],
+    "integrations": [
+      "Google Classroom",
+      "Clever",
+      "Canvas"
+    ],
+    "similar_tool_slugs": [
+      "eduaide-ai",
+      "diffit",
+      "brisk-teaching"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "COPPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "SOC 2 Type II",
+        "status": "available"
+      },
+      {
+        "label": "DPA Available",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "featured",
+    "featured_flag": true,
+    "featured_rank": 1,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-03-15",
+    "status": "published"
+  },
+  {
+    "name": "Khanmigo",
+    "slug": "khanmigo",
+    "vendor": "Khan Academy",
+    "description": "AI tutor powered by GPT-4 that guides students through learning with Socratic questioning, backed by Khan Academy's trusted education platform.",
+    "overview": "Khanmigo is Khan Academy's AI-powered tutor that uses Socratic questioning to help students learn without giving away answers. It serves as both a student tutor and teacher assistant, integrated deeply into the Khan Academy learning ecosystem.",
+    "why_it_matters": "One of the most structured, safe AI tutoring environments.",
+    "website_url": "https://khanacademy.org/khan-labs",
+    "affiliate_url": "https://khanacademy.org/khan-labs?ref=dai",
+    "logo_url": "/logos/khanmigo.svg",
+    "ease_of_use_score": 8,
+    "instructional_value_score": 9,
+    "privacy_score": 9,
+    "accessibility_score": 8,
+    "overall_score": 8.6,
+    "pricing_type": "Paid",
+    "pricing_details": "District pricing through Khan Academy for Districts. Per-student licensing.",
+    "privacy_level": "High",
+    "accessibility_level": "Strong",
+    "grade_levels": [
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Students"
+    ],
+    "categories": [
+      "Tutoring",
+      "Student Support"
+    ],
+    "best_for": [
+      "Math tutoring",
+      "Socratic learning",
+      "Student practice",
+      "SAT prep",
+      "Writing coaching"
+    ],
+    "not_ideal_for": [
+      "Content creation for teachers",
+      "Districts not using Khan Academy",
+      "Visual content"
+    ],
+    "key_features": [
+      "Socratic tutoring",
+      "Math step-by-step help",
+      "Writing coach",
+      "Debate practice",
+      "Teacher activity summaries"
+    ],
+    "instructional_fit": "Deeply aligned with learning science principles. The Socratic approach ensures students build understanding rather than receiving answers.",
+    "implementation_notes": "Requires Khan Academy district integration. Available through Khan Academy's district program.",
+    "privacy_notes": "High privacy — backed by Khan Academy's established nonprofit privacy framework. FERPA and COPPA compliant. Student data protection is a core organizational value.",
+    "accessibility_notes": "Strong accessibility. Khan Academy platform has robust accessibility features. WCAG compliance inherited from the parent platform.",
+    "admin_integration_notes": "District dashboard through Khan Academy for Schools. Student progress reporting integrated.",
+    "editorial_verdict": "A thoughtfully designed AI tutor backed by one of education's most trusted organizations. Best for districts already invested in the Khan Academy ecosystem.",
+    "tags": [
+      "tutoring",
+      "math",
+      "Socratic",
+      "Khan Academy",
+      "student-facing",
+      "safe AI"
+    ],
+    "integrations": [
+      "Khan Academy",
+      "Google Classroom",
+      "Clever"
+    ],
+    "similar_tool_slugs": [
+      "schoolai",
+      "socratic"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "COPPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "SOC 2 Type II",
+        "status": "available"
+      },
+      {
+        "label": "DPA Available",
+        "status": "available"
+      },
+      {
+        "label": "VPAT/ACR",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "verified",
+    "featured_flag": true,
+    "featured_rank": 2,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-02-20",
+    "status": "published"
+  },
+  {
+    "name": "Brisk Teaching",
+    "slug": "brisk-teaching",
+    "vendor": "Brisk Labs",
+    "description": "Chrome extension that brings AI-powered feedback and grading directly into the tools teachers already use — Google Docs, Slides, Forms, and more.",
+    "overview": "Brisk is an AI Chrome extension that works inside Google Workspace. Instead of switching to a new platform, teachers can generate lesson plans, quizzes, feedback, and rubrics right inside their existing documents and slides.",
+    "why_it_matters": "Speeds up feedback cycles dramatically.",
+    "website_url": "https://briskteaching.com",
+    "affiliate_url": "https://briskteaching.com?ref=dai",
+    "logo_url": "/logos/brisk.svg",
+    "ease_of_use_score": 9,
+    "instructional_value_score": 8,
+    "privacy_score": 6,
+    "accessibility_score": 7,
+    "overall_score": 8,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free tier available. Premium features at $9/mo per teacher. District pricing on request.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Moderate",
+    "grade_levels": [
+      "K-2",
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers"
+    ],
+    "categories": [
+      "Feedback & Grading"
+    ],
+    "best_for": [
+      "In-context AI assistance",
+      "Google Workspace users",
+      "Feedback writing",
+      "Grading acceleration"
+    ],
+    "not_ideal_for": [
+      "Non-Google environments",
+      "Student-facing AI",
+      "District-wide analytics"
+    ],
+    "key_features": [
+      "Chrome extension",
+      "Works in Google Docs/Slides/Forms",
+      "AI feedback on student work",
+      "Quiz creation",
+      "Lesson plan generation"
+    ],
+    "instructional_fit": "Reduces friction by meeting teachers where they already work. Particularly effective for feedback and grading workflows.",
+    "implementation_notes": "Chrome extension installation only. No complex deployment. Works immediately in Google Workspace.",
+    "privacy_notes": "Medium privacy. FERPA compliant. Data processed through secure channels. Does not store student work permanently.",
+    "accessibility_notes": "Moderate accessibility. Inherits Google Workspace accessibility features. Extension interface is keyboard-navigable.",
+    "admin_integration_notes": "Chrome extension can be pushed through Google Admin Console. District licensing available.",
+    "editorial_verdict": "The best AI tool for teachers who live in Google Workspace. Minimal learning curve and maximum convenience for feedback workflows.",
+    "tags": [
+      "chrome extension",
+      "google workspace",
+      "feedback",
+      "grading",
+      "lesson planning"
+    ],
+    "integrations": [
+      "Google Docs",
+      "Google Slides",
+      "Google Forms",
+      "Google Classroom"
+    ],
+    "similar_tool_slugs": [
+      "magicschool-ai",
+      "eduaide-ai"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "COPPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "DPA Available",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "featured",
+    "featured_flag": true,
+    "featured_rank": 5,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-03-05",
+    "status": "published"
+  },
+  {
+    "name": "Diffit",
+    "slug": "diffit",
+    "vendor": "Diffit Inc.",
+    "description": "AI-powered differentiation tool that adapts reading materials and generates resources at any grade level — one of the best tools for scaffolding content.",
+    "overview": "Diffit specializes in making differentiation effortless. Teachers can input any topic or text, and Diffit generates adapted reading passages, vocabulary lists, comprehension questions, and more at the appropriate reading level.",
+    "why_it_matters": "One of the best tools for scaffolding content.",
+    "website_url": "https://diffit.me",
+    "affiliate_url": "https://diffit.me?ref=dai",
+    "logo_url": "/logos/diffit.svg",
+    "ease_of_use_score": 9,
+    "instructional_value_score": 9,
+    "privacy_score": 7,
+    "accessibility_score": 7,
+    "overall_score": 8.5,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free for individual teachers. District plans available for enhanced features.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Moderate",
+    "grade_levels": [
+      "K-2",
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Instructional Coaches"
+    ],
+    "categories": [
+      "Differentiation"
+    ],
+    "best_for": [
+      "Reading differentiation",
+      "ELL support",
+      "Vocabulary building",
+      "Adapted assessments",
+      "Scaffolding"
+    ],
+    "not_ideal_for": [
+      "Math instruction",
+      "Open-ended creative projects",
+      "Video content"
+    ],
+    "key_features": [
+      "Text leveling by grade",
+      "Vocabulary generation",
+      "Comprehension questions",
+      "Translation support",
+      "Summary generation"
+    ],
+    "instructional_fit": "Exceptional for supporting diverse learners. Particularly valuable for ELL classrooms and inclusive settings.",
+    "implementation_notes": "Simple web tool. Google SSO supported. No IT configuration required.",
+    "privacy_notes": "Medium privacy. FERPA and COPPA compliant. Minimal data collection. Clear privacy policy.",
+    "accessibility_notes": "Moderate accessibility. Clean, accessible interface. Generated content supports multiple reading levels and languages.",
+    "admin_integration_notes": "District licensing available. Integration with Google Classroom.",
+    "editorial_verdict": "Best-in-class differentiation tool. Simple, focused, and highly effective. A must-have for any district prioritizing equitable access to content.",
+    "tags": [
+      "differentiation",
+      "reading",
+      "ELL",
+      "accessibility",
+      "vocabulary",
+      "scaffolding"
+    ],
+    "integrations": [
+      "Google Classroom"
+    ],
+    "similar_tool_slugs": [
+      "magicschool-ai",
+      "eduaide-ai",
+      "twee"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "COPPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "DPA Available",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "verified",
+    "featured_flag": true,
+    "featured_rank": 3,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-02-28",
+    "status": "published"
+  },
+  {
+    "name": "Curipod",
+    "slug": "curipod",
+    "vendor": "Curipod AS",
+    "description": "AI-powered interactive lesson platform with real-time student engagement, polls, and AI-generated slides that turn lessons into interactive experiences quickly.",
+    "overview": "Curipod combines AI lesson generation with live classroom interaction. Teachers can generate complete interactive lessons in minutes, including polls, open-ended questions, word clouds, and drawing activities.",
+    "why_it_matters": "Turns lessons into interactive experiences quickly.",
+    "website_url": "https://curipod.com",
+    "affiliate_url": "https://curipod.com?ref=dai",
+    "logo_url": "/logos/curipod.svg",
+    "ease_of_use_score": 8,
+    "instructional_value_score": 8,
+    "privacy_score": 6,
+    "accessibility_score": 7,
+    "overall_score": 7.8,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free tier with 3 lessons/mo. Premium at $7.50/mo. School pricing available.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Moderate",
+    "grade_levels": [
+      "K-2",
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Students"
+    ],
+    "categories": [
+      "Engagement"
+    ],
+    "best_for": [
+      "Interactive lessons",
+      "Student engagement",
+      "Formative assessment",
+      "Classroom discussions"
+    ],
+    "not_ideal_for": [
+      "Asynchronous learning",
+      "Deep content differentiation",
+      "Administrative workflows"
+    ],
+    "key_features": [
+      "AI lesson generator",
+      "Live polls and word clouds",
+      "Drawing activities",
+      "AI feedback on student responses",
+      "Slide-based presentation"
+    ],
+    "instructional_fit": "Ideal for engaging whole-class instruction. Supports formative assessment through real-time responses.",
+    "implementation_notes": "Browser-based for teachers and students. No app download needed. Google and Microsoft SSO available.",
+    "privacy_notes": "Medium privacy. GDPR compliant (Norwegian company). FERPA compliant for US districts.",
+    "accessibility_notes": "Moderate accessibility. Mobile-responsive student interface. Some interactive elements may need adaptation for screen readers.",
+    "admin_integration_notes": "School and district plans available. Teacher analytics dashboard included.",
+    "editorial_verdict": "A standout tool for making AI-powered instruction interactive and engaging. Best for districts that value student participation.",
+    "tags": [
+      "engagement",
+      "interactive",
+      "formative assessment",
+      "presentation",
+      "polls"
+    ],
+    "integrations": [
+      "Google Classroom",
+      "Microsoft Teams"
+    ],
+    "similar_tool_slugs": [
+      "nearpod",
+      "classpoint-ai"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "COPPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "GDPR Compliant",
+        "status": "available"
+      },
+      {
+        "label": "DPA Available",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "basic",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-03-01",
+    "status": "published"
+  },
+  {
+    "name": "Eduaide.AI",
+    "slug": "eduaide-ai",
+    "vendor": "Eduaide",
+    "description": "AI teaching assistant with 100+ resource generators for lesson planning — strong structured outputs aligned to standards.",
+    "overview": "Eduaide.AI offers a comprehensive suite of AI-powered generators for educational content. With over 100 tools spanning lesson plans, assessments, feedback, and more, it streamlines teacher workflows significantly.",
+    "why_it_matters": "Strong structured outputs aligned to standards.",
+    "website_url": "https://eduaide.ai",
+    "affiliate_url": "https://eduaide.ai?ref=dai",
+    "logo_url": "/logos/eduaide.svg",
+    "ease_of_use_score": 9,
+    "instructional_value_score": 9,
+    "privacy_score": 7,
+    "accessibility_score": 7,
+    "overall_score": 8.2,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free tier with daily limits. Pro plan at $7.99/mo. District pricing on request.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Moderate",
+    "grade_levels": [
+      "K-2",
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Curriculum Leaders"
+    ],
+    "categories": [
+      "Lesson Planning"
+    ],
+    "best_for": [
+      "Resource generation",
+      "Assessment design",
+      "Feedback writing",
+      "Curriculum alignment"
+    ],
+    "not_ideal_for": [
+      "Student-facing activities",
+      "Live classroom use",
+      "Video creation"
+    ],
+    "key_features": [
+      "100+ content generators",
+      "Standards alignment",
+      "Multi-language support",
+      "Feedback assistant",
+      "Lesson hooks generator"
+    ],
+    "instructional_fit": "Strong standards alignment capabilities. Supports backward design and can generate content aligned to state and Common Core standards.",
+    "implementation_notes": "Browser-based, no installation required. Supports SSO. Minimal training needed.",
+    "privacy_notes": "Medium privacy. FERPA compliant. Does not store student PII. Clear data handling practices.",
+    "accessibility_notes": "Moderate accessibility. Web-accessible interface. Output can be modified for accessibility needs.",
+    "admin_integration_notes": "District licensing available. Admin reporting dashboard in development.",
+    "editorial_verdict": "A strong contender for districts looking for breadth in AI-generated educational content.",
+    "tags": [
+      "lesson planning",
+      "assessment",
+      "content generation",
+      "standards alignment"
+    ],
+    "integrations": [
+      "Google Classroom"
+    ],
+    "similar_tool_slugs": [
+      "magicschool-ai",
+      "diffit"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "COPPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "DPA Available",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "featured",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-03-10",
+    "status": "published"
+  },
+  {
+    "name": "SchoolAI",
+    "slug": "schoolai",
+    "vendor": "SchoolAI Inc.",
+    "description": "AI platform for creating safe, teacher-controlled AI spaces where students can interact with AI tutors under monitored guardrails.",
+    "overview": "SchoolAI allows teachers to create customized AI learning spaces with teacher-controlled guardrails. Teachers can monitor all student conversations in real-time and set topic boundaries.",
+    "why_it_matters": "Safe AI spaces for student interaction.",
+    "website_url": "https://schoolai.com",
+    "affiliate_url": "https://schoolai.com?ref=dai",
+    "logo_url": "/logos/schoolai.svg",
+    "ease_of_use_score": 8,
+    "instructional_value_score": 9,
+    "privacy_score": 7,
+    "accessibility_score": 7,
+    "overall_score": 8.1,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free tier with limited spaces. Premium at $15/mo per teacher.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Moderate",
+    "grade_levels": [
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Students",
+      "Administrators"
+    ],
+    "categories": [
+      "Student Interaction"
+    ],
+    "best_for": [
+      "Student-facing AI",
+      "Custom AI tutors",
+      "Monitored AI interactions",
+      "Differentiated practice"
+    ],
+    "not_ideal_for": [
+      "Lesson planning",
+      "Administrative tasks",
+      "Assessment creation"
+    ],
+    "key_features": [
+      "Custom AI spaces",
+      "Real-time conversation monitoring",
+      "Teacher guardrails",
+      "Topic boundaries",
+      "Student analytics"
+    ],
+    "instructional_fit": "Unique in offering safe, monitored student-AI interaction. Teachers maintain full control.",
+    "implementation_notes": "Web-based. Student access via join codes. Google and Clever SSO.",
+    "privacy_notes": "Medium privacy. FERPA and COPPA compliant. All student conversations monitored and reviewable.",
+    "accessibility_notes": "Moderate accessibility. Text-based interface is screen reader compatible.",
+    "admin_integration_notes": "School and district plans include admin dashboards.",
+    "editorial_verdict": "The leading platform for districts that want students to interact with AI safely. Unmatched monitoring capabilities.",
+    "tags": [
+      "student-facing",
+      "AI tutoring",
+      "guardrails",
+      "monitoring",
+      "safe AI"
+    ],
+    "integrations": [
+      "Google Classroom",
+      "Clever",
+      "Canvas"
+    ],
+    "similar_tool_slugs": [
+      "khanmigo",
+      "socratic"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "COPPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "SOC 2 Type II",
+        "status": "available"
+      },
+      {
+        "label": "DPA Available",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "verified",
+    "featured_flag": true,
+    "featured_rank": 4,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-03-12",
+    "status": "published"
+  },
+  {
+    "name": "Canva",
+    "slug": "canva",
+    "vendor": "Canva",
+    "description": "Universal design platform for visual learning and teacher content creation, free for K–12 educators with AI-powered features.",
+    "overview": "Canva for Education provides a full design suite free for K–12 teachers and students. AI features include Magic Write, text-to-image generation, and design suggestions.",
+    "why_it_matters": "Universal tool for visual learning and teacher content.",
+    "website_url": "https://canva.com/education",
+    "affiliate_url": "https://canva.com/education?ref=dai",
+    "logo_url": "/logos/canva.svg",
+    "ease_of_use_score": 9,
+    "instructional_value_score": 9,
+    "privacy_score": 7,
+    "accessibility_score": 8,
+    "overall_score": 8.3,
+    "pricing_type": "Freemium",
+    "pricing_details": "100% free for verified K–12 educators and their students.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Strong",
+    "grade_levels": [
+      "K-2",
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Students"
+    ],
+    "categories": [
+      "Content Creation"
+    ],
+    "best_for": [
+      "Visual content creation",
+      "Student projects",
+      "Presentations",
+      "Infographics",
+      "Worksheets"
+    ],
+    "not_ideal_for": [
+      "Lesson planning workflows",
+      "Assessment generation",
+      "AI tutoring"
+    ],
+    "key_features": [
+      "Magic Write AI",
+      "Text-to-image",
+      "Template library",
+      "Real-time collaboration",
+      "Brand Kit for schools"
+    ],
+    "instructional_fit": "Supports visual learning and creative expression. Excellent for project-based learning.",
+    "implementation_notes": "Free for verified educators. Google and Microsoft SSO. LMS integration available.",
+    "privacy_notes": "Medium privacy. FERPA and COPPA compliant. AI features can be toggled by administrators.",
+    "accessibility_notes": "Strong accessibility. WCAG 2.1 AA compliant. Screen reader support. Keyboard navigation throughout.",
+    "admin_integration_notes": "District-wide deployment through Canva for Districts. Admin controls for AI features.",
+    "editorial_verdict": "An essential creative tool for any district. Free pricing and strong accessibility make it an easy adoption.",
+    "tags": [
+      "design",
+      "visual",
+      "presentations",
+      "creative",
+      "collaboration"
+    ],
+    "integrations": [
+      "Google Classroom",
+      "Microsoft Teams",
+      "Canvas",
+      "Schoology"
+    ],
+    "similar_tool_slugs": [
+      "adobe-express",
+      "slidesai"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "COPPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "SOC 2 Type II",
+        "status": "available"
+      },
+      {
+        "label": "DPA Available",
+        "status": "available"
+      },
+      {
+        "label": "VPAT/ACR",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "verified",
+    "featured_flag": true,
+    "featured_rank": 6,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-03-08",
+    "status": "published"
+  },
+  {
+    "name": "Adobe Express",
+    "slug": "adobe-express",
+    "vendor": "Adobe",
+    "description": "Strong district-friendly creative platform with AI-powered features, free for K–12 schools with enterprise-grade privacy.",
+    "overview": "Adobe Express for Education brings professional-grade creative tools to K–12 classrooms with AI features like Firefly generative AI and student safety controls.",
+    "why_it_matters": "Strong district-friendly creative platform.",
+    "website_url": "https://adobe.com/education/express",
+    "affiliate_url": "https://adobe.com/education/express?ref=dai",
+    "logo_url": "/logos/adobe.svg",
+    "ease_of_use_score": 8,
+    "instructional_value_score": 9,
+    "privacy_score": 9,
+    "accessibility_score": 8,
+    "overall_score": 8.4,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free for K–12 schools and districts.",
+    "privacy_level": "High",
+    "accessibility_level": "Strong",
+    "grade_levels": [
+      "K-2",
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Students"
+    ],
+    "categories": [
+      "Content Creation"
+    ],
+    "best_for": [
+      "Creative projects",
+      "Visual design",
+      "Video creation",
+      "Digital storytelling"
+    ],
+    "not_ideal_for": [
+      "Lesson planning",
+      "Assessment",
+      "AI tutoring"
+    ],
+    "key_features": [
+      "Firefly AI generation",
+      "Video creation",
+      "Template library",
+      "Brand Kit",
+      "Student safety controls"
+    ],
+    "instructional_fit": "Supports creative expression and project-based learning with professional tools.",
+    "implementation_notes": "Free for K–12 schools. Federated ID and SSO support. Admin console for deployment.",
+    "privacy_notes": "High privacy — enterprise backing. FERPA and COPPA compliant. AI features age-gated. Adobe's established security framework.",
+    "accessibility_notes": "Strong accessibility. Adobe's accessibility standards. VPAT available. Keyboard navigation supported.",
+    "admin_integration_notes": "Adobe Admin Console for deployment. SSO integration. AI feature controls.",
+    "editorial_verdict": "A premium creative platform with enterprise-grade privacy. Strong alternative to Canva with Adobe's design ecosystem.",
+    "tags": [
+      "design",
+      "creative",
+      "video",
+      "AI generation",
+      "Adobe"
+    ],
+    "integrations": [
+      "Google Classroom",
+      "Canvas",
+      "Schoology",
+      "Microsoft Teams"
+    ],
+    "similar_tool_slugs": [
+      "canva",
+      "slidesai",
+      "pictory"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "COPPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "SOC 2 Type II",
+        "status": "available"
+      },
+      {
+        "label": "DPA Available",
+        "status": "available"
+      },
+      {
+        "label": "VPAT/ACR",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "featured",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-02-18",
+    "status": "published"
+  },
+  {
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "vendor": "OpenAI",
+    "description": "The most flexible general-purpose AI tool available — requires guardrails for educational settings but offers unmatched versatility.",
+    "overview": "ChatGPT offers powerful general-purpose AI capabilities. OpenAI has introduced education-specific features including custom GPTs and team workspaces, but it remains a general tool that requires educator judgment for safe classroom use.",
+    "why_it_matters": "Most flexible AI tool; requires guardrails.",
+    "website_url": "https://openai.com/chatgpt",
+    "affiliate_url": "https://openai.com/chatgpt?ref=dai",
+    "logo_url": "/logos/chatgpt.svg",
+    "ease_of_use_score": 9,
+    "instructional_value_score": 9,
+    "privacy_score": 7,
+    "accessibility_score": 8,
+    "overall_score": 8.5,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free tier available. Plus at $20/mo. Team at $25/user/mo.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Strong",
+    "grade_levels": [
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Administrators"
+    ],
+    "categories": [
+      "General AI"
+    ],
+    "best_for": [
+      "General AI assistance",
+      "Brainstorming",
+      "Content drafting",
+      "Custom GPT creation"
+    ],
+    "not_ideal_for": [
+      "Unmonitored student use",
+      "District-managed deployment",
+      "Younger students"
+    ],
+    "key_features": [
+      "Conversational AI",
+      "Custom GPTs",
+      "Image generation",
+      "Code interpreter",
+      "File analysis",
+      "Team workspaces"
+    ],
+    "instructional_fit": "Extremely versatile but requires teacher judgment. Best as a teacher productivity tool rather than a student-facing platform.",
+    "implementation_notes": "Requires individual or team accounts. No district SSO or rostering. Teachers need usage guidelines.",
+    "privacy_notes": "Medium privacy. Enterprise and Team plans offer data protections. Free/Plus plans may use data for training. Districts should negotiate enterprise terms.",
+    "accessibility_notes": "Strong accessibility. Web interface is generally accessible. Mobile apps available.",
+    "admin_integration_notes": "Team and Enterprise plans offer admin controls. No LMS integration. Limited district management.",
+    "editorial_verdict": "The most powerful general-purpose AI available, but lacks education-specific guardrails and admin features. Best positioned as a teacher productivity tool with clear usage guidelines.",
+    "tags": [
+      "general AI",
+      "chatbot",
+      "content creation",
+      "brainstorming",
+      "GPT"
+    ],
+    "integrations": [],
+    "similar_tool_slugs": [
+      "gemini"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "partial"
+      },
+      {
+        "label": "COPPA Compliant",
+        "status": "unavailable"
+      },
+      {
+        "label": "SOC 2 Type II",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "basic",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-03-20",
+    "status": "published"
+  },
+  {
+    "name": "Gemini",
+    "slug": "gemini",
+    "vendor": "Google",
+    "description": "Google's AI assistant that integrates naturally with Google Workspace — the smart choice for Google-heavy schools.",
+    "overview": "Gemini for Education brings Google's AI directly into Google Workspace for Education. Teachers and students can access AI within Docs, Slides, Sheets, and Gmail with admin controls.",
+    "why_it_matters": "Integrates well with Google Workspace schools.",
+    "website_url": "https://gemini.google.com",
+    "affiliate_url": "https://gemini.google.com?ref=dai",
+    "logo_url": "/logos/gemini.svg",
+    "ease_of_use_score": 8,
+    "instructional_value_score": 9,
+    "privacy_score": 7,
+    "accessibility_score": 8,
+    "overall_score": 8.3,
+    "pricing_type": "Freemium",
+    "pricing_details": "Included with Google Workspace for Education Plus.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Strong",
+    "grade_levels": [
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Students",
+      "Administrators"
+    ],
+    "categories": [
+      "General AI"
+    ],
+    "best_for": [
+      "Google Workspace integration",
+      "Writing assistance",
+      "Research help",
+      "Productivity"
+    ],
+    "not_ideal_for": [
+      "Specialized lesson planning",
+      "Assessment creation",
+      "Non-Google environments"
+    ],
+    "key_features": [
+      "Integrated in Google Docs",
+      "Help Me Write",
+      "Image generation in Slides",
+      "Research assistance",
+      "Admin controls"
+    ],
+    "instructional_fit": "Natural integration with Google Workspace makes it seamless for Google-heavy schools.",
+    "implementation_notes": "Available through Google Workspace for Education Plus. Enabled through Admin Console.",
+    "privacy_notes": "Medium privacy. Inherits Google Workspace for Education protections. Data not used for advertising.",
+    "accessibility_notes": "Strong accessibility. Inherits Google Workspace accessibility features.",
+    "admin_integration_notes": "Full admin control through Google Admin Console. Age-gating available.",
+    "editorial_verdict": "The natural choice for Google Workspace districts. Excellent admin controls. Limited as a standalone education AI tool.",
+    "tags": [
+      "Google",
+      "workspace integration",
+      "writing",
+      "productivity"
+    ],
+    "integrations": [
+      "Google Workspace",
+      "Google Classroom",
+      "Google Docs",
+      "Google Slides"
+    ],
+    "similar_tool_slugs": [
+      "chatgpt"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "COPPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "SOC 2 Type II",
+        "status": "available"
+      },
+      {
+        "label": "DPA Available",
+        "status": "available"
+      },
+      {
+        "label": "VPAT/ACR",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "featured",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-03-14",
+    "status": "published"
+  },
+  {
+    "name": "Quizizz AI",
+    "slug": "quizizz-ai",
+    "vendor": "Quizizz",
+    "description": "AI-powered quiz and assessment platform that makes fast quiz generation engaging and gamified for K–12 classrooms.",
+    "overview": "Quizizz uses AI to help teachers generate quizzes, lessons, and interactive activities quickly. Gamification elements keep students engaged while teachers get real-time analytics.",
+    "why_it_matters": "Fast quiz generation and engagement.",
+    "website_url": "https://quizizz.com",
+    "affiliate_url": "https://quizizz.com?ref=dai",
+    "logo_url": "/logos/quizizz.svg",
+    "ease_of_use_score": 9,
+    "instructional_value_score": 8,
+    "privacy_score": 7,
+    "accessibility_score": 7,
+    "overall_score": 8.1,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free tier available. School plans with additional features.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Moderate",
+    "grade_levels": [
+      "K-2",
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Students"
+    ],
+    "categories": [
+      "Assessment"
+    ],
+    "best_for": [
+      "Quiz generation",
+      "Gamified assessment",
+      "Formative checks",
+      "Student engagement"
+    ],
+    "not_ideal_for": [
+      "Deep lesson planning",
+      "Writing feedback",
+      "Administrative tasks"
+    ],
+    "key_features": [
+      "AI quiz generator",
+      "Gamification",
+      "Real-time analytics",
+      "Adaptive questions",
+      "LMS integration"
+    ],
+    "instructional_fit": "Excellent for quick formative assessment and review. Gamification drives student participation.",
+    "implementation_notes": "Web-based. Easy teacher and student sign-up. LMS integrations available.",
+    "privacy_notes": "Medium privacy. FERPA compliant. Student data handling documented.",
+    "accessibility_notes": "Moderate accessibility. Gamified interface may present challenges for some assistive technologies.",
+    "admin_integration_notes": "School and district plans available. Admin dashboard for usage tracking.",
+    "editorial_verdict": "A strong gamified assessment tool with useful AI-powered quiz generation. Popular with students and teachers alike.",
+    "tags": [
+      "quiz",
+      "gamification",
+      "assessment",
+      "engagement",
+      "formative"
+    ],
+    "integrations": [
+      "Google Classroom",
+      "Canvas",
+      "Schoology"
+    ],
+    "similar_tool_slugs": [
+      "classpoint-ai",
+      "formative",
+      "quizlet"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "COPPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "DPA Available",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "basic",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-03-02",
+    "status": "published"
+  },
+  {
+    "name": "Quizlet",
+    "slug": "quizlet",
+    "vendor": "Quizlet Inc.",
+    "description": "AI-enhanced study platform with flashcards, practice tests, and Q-Chat AI tutor — widely adopted and familiar to students.",
+    "overview": "Quizlet is one of the most widely-used study platforms, now enhanced with AI features including Q-Chat, an AI tutor that uses Socratic dialogue.",
+    "why_it_matters": "Widely adopted and familiar to students.",
+    "website_url": "https://quizlet.com",
+    "affiliate_url": "https://quizlet.com?ref=dai",
+    "logo_url": "/logos/quizlet.svg",
+    "ease_of_use_score": 8,
+    "instructional_value_score": 8,
+    "privacy_score": 7,
+    "accessibility_score": 8,
+    "overall_score": 8,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free tier for basic features. Plus at $7.99/mo.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Strong",
+    "grade_levels": [
+      "K-2",
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Students"
+    ],
+    "categories": [
+      "Study Tools"
+    ],
+    "best_for": [
+      "Study and review",
+      "Vocabulary building",
+      "Test preparation",
+      "Spaced repetition"
+    ],
+    "not_ideal_for": [
+      "Lesson planning",
+      "Creative projects",
+      "Open-ended learning"
+    ],
+    "key_features": [
+      "Q-Chat AI tutor",
+      "Flashcard generation",
+      "Practice tests",
+      "Learn mode",
+      "Spaced repetition"
+    ],
+    "instructional_fit": "Excellent for review and retrieval practice. Best as a supplementary study tool.",
+    "implementation_notes": "Student and teacher accounts available. Google SSO. No complex IT deployment.",
+    "privacy_notes": "Medium privacy. FERPA and COPPA compliant for school accounts.",
+    "accessibility_notes": "Strong accessibility. Mobile and web accessible. Audio features for language learning.",
+    "admin_integration_notes": "School plans available. Teacher can manage classes.",
+    "editorial_verdict": "A beloved study tool now enhanced with thoughtful AI features. Best as a complementary tool in any district's toolkit.",
+    "tags": [
+      "flashcards",
+      "study",
+      "review",
+      "AI tutor",
+      "vocabulary"
+    ],
+    "integrations": [
+      "Google Classroom"
+    ],
+    "similar_tool_slugs": [
+      "quizizz-ai"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "COPPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "DPA Available",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "basic",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-02-22",
+    "status": "published"
+  },
+  {
+    "name": "Grammarly",
+    "slug": "grammarly",
+    "vendor": "Grammarly Inc.",
+    "description": "AI-powered writing support that improves writing clarity at scale — trusted by millions and now with education-specific features.",
+    "overview": "Grammarly uses AI to provide real-time writing feedback on grammar, clarity, tone, and style. Education plans offer plagiarism detection and admin controls for schools.",
+    "why_it_matters": "Improves writing clarity at scale.",
+    "website_url": "https://grammarly.com/edu",
+    "affiliate_url": "https://grammarly.com/edu?ref=dai",
+    "logo_url": "/logos/grammarly.svg",
+    "ease_of_use_score": 9,
+    "instructional_value_score": 8,
+    "privacy_score": 7,
+    "accessibility_score": 8,
+    "overall_score": 8.2,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free basic features. Education plans with institutional pricing.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Strong",
+    "grade_levels": [
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Students"
+    ],
+    "categories": [
+      "Writing Support"
+    ],
+    "best_for": [
+      "Writing improvement",
+      "Grammar feedback",
+      "Tone adjustment",
+      "Plagiarism detection"
+    ],
+    "not_ideal_for": [
+      "Lesson planning",
+      "Math instruction",
+      "Younger students",
+      "Creative writing coaching"
+    ],
+    "key_features": [
+      "Real-time writing feedback",
+      "Tone detection",
+      "Plagiarism checker",
+      "Clarity suggestions",
+      "Browser extension"
+    ],
+    "instructional_fit": "Supports writing across all subjects. Helps students develop self-editing skills.",
+    "implementation_notes": "Browser extension and web app. Education plans include admin dashboard. SSO available.",
+    "privacy_notes": "Medium privacy. FERPA compliant for education plans. Enterprise-grade security.",
+    "accessibility_notes": "Strong accessibility. Works across browsers and platforms. Screen reader compatible.",
+    "admin_integration_notes": "Education admin dashboard. Usage analytics. SSO and provisioning support.",
+    "editorial_verdict": "A mature, trusted writing tool with genuine AI capabilities. Education plans make it district-appropriate.",
+    "tags": [
+      "writing",
+      "grammar",
+      "feedback",
+      "plagiarism",
+      "editing"
+    ],
+    "integrations": [
+      "Google Docs",
+      "Microsoft Word",
+      "Canvas"
+    ],
+    "similar_tool_slugs": [
+      "twee"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "SOC 2 Type II",
+        "status": "available"
+      },
+      {
+        "label": "DPA Available",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "featured",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": true,
+    "last_reviewed_at": "2026-03-18",
+    "status": "published"
+  },
+  {
+    "name": "Otter.ai",
+    "slug": "otter-ai",
+    "vendor": "Otter.ai Inc.",
+    "description": "AI-powered transcription and note-taking that supports accessibility and meeting capture for educators and administrators.",
+    "overview": "Otter.ai uses AI to transcribe meetings, classes, and conversations in real-time. It supports accessibility by providing text transcripts and searchable notes.",
+    "why_it_matters": "Supports accessibility and meeting capture.",
+    "website_url": "https://otter.ai",
+    "affiliate_url": "https://otter.ai?ref=dai",
+    "logo_url": "/logos/otter.svg",
+    "ease_of_use_score": 8,
+    "instructional_value_score": 9,
+    "privacy_score": 7,
+    "accessibility_score": 8,
+    "overall_score": 8.3,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free tier with limited minutes. Education pricing available.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Strong",
+    "grade_levels": [
+      "K-2",
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Administrators"
+    ],
+    "categories": [
+      "Accessibility & Notes"
+    ],
+    "best_for": [
+      "Meeting transcription",
+      "Accessibility support",
+      "Note-taking",
+      "IEP meeting documentation"
+    ],
+    "not_ideal_for": [
+      "Lesson planning",
+      "Student-facing activities",
+      "Assessment creation"
+    ],
+    "key_features": [
+      "Real-time transcription",
+      "Searchable notes",
+      "Speaker identification",
+      "Summary generation",
+      "Meeting integration"
+    ],
+    "instructional_fit": "Valuable for accessibility compliance and administrative documentation. Supports hearing-impaired students.",
+    "implementation_notes": "Web and mobile apps. Integrates with Zoom, Google Meet, and Microsoft Teams.",
+    "privacy_notes": "Medium privacy. Enterprise security features. Data handling documented.",
+    "accessibility_notes": "Strong accessibility. Core purpose is accessibility support. Real-time captions for meetings.",
+    "admin_integration_notes": "Education plans available. Admin controls for data retention.",
+    "editorial_verdict": "An essential accessibility tool that doubles as a productivity tool for meetings and note-taking.",
+    "tags": [
+      "transcription",
+      "accessibility",
+      "notes",
+      "meetings",
+      "captions"
+    ],
+    "integrations": [
+      "Zoom",
+      "Google Meet",
+      "Microsoft Teams"
+    ],
+    "similar_tool_slugs": [],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "partial"
+      },
+      {
+        "label": "SOC 2 Type II",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "basic",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-03-06",
+    "status": "published"
+  },
+  {
+    "name": "SlidesAI",
+    "slug": "slidesai",
+    "vendor": "SlidesAI",
+    "description": "AI-powered presentation generator that creates slide decks from text input — useful for quick content creation.",
+    "overview": "SlidesAI generates Google Slides presentations from text descriptions using AI. Teachers can quickly create presentation materials from lesson notes or outlines.",
+    "why_it_matters": "Quick AI-generated presentations from text.",
+    "website_url": "https://slidesai.io",
+    "affiliate_url": "https://slidesai.io?ref=dai",
+    "logo_url": "/logos/slidesai.svg",
+    "ease_of_use_score": 8,
+    "instructional_value_score": 8,
+    "privacy_score": 7,
+    "accessibility_score": 7,
+    "overall_score": 7.9,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free tier with limited presentations. Pro plans available.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Moderate",
+    "grade_levels": [
+      "K-2",
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers"
+    ],
+    "categories": [
+      "Content Creation"
+    ],
+    "best_for": [
+      "Presentation creation",
+      "Quick slide generation",
+      "Visual summaries"
+    ],
+    "not_ideal_for": [
+      "Complex lesson design",
+      "Assessment",
+      "Student interaction"
+    ],
+    "key_features": [
+      "Text-to-slides",
+      "Google Slides integration",
+      "Multiple themes",
+      "Summary generation"
+    ],
+    "instructional_fit": "Time-saver for creating presentation materials. Output quality varies and typically needs teacher refinement.",
+    "implementation_notes": "Google Slides add-on. Simple installation. No IT support needed.",
+    "privacy_notes": "Medium privacy. Processes text through AI. Limited education-specific privacy documentation.",
+    "accessibility_notes": "Moderate accessibility. Generated slides may need manual accessibility adjustments.",
+    "admin_integration_notes": "Individual tool. No admin controls or district management features.",
+    "editorial_verdict": "A useful time-saver for quick presentations, but output quality requires teacher oversight.",
+    "tags": [
+      "presentations",
+      "slides",
+      "content creation",
+      "Google Slides"
+    ],
+    "integrations": [
+      "Google Slides"
+    ],
+    "similar_tool_slugs": [
+      "canva",
+      "adobe-express"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "unknown"
+      }
+    ],
+    "listing_tier": "basic",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-02-15",
+    "status": "published"
+  },
+  {
+    "name": "Twee",
+    "slug": "twee",
+    "vendor": "Twee",
+    "description": "AI-powered ELA and language teaching tool that generates reading passages, questions, and vocabulary exercises aligned to proficiency levels.",
+    "overview": "Twee uses AI to generate language teaching materials including reading passages, comprehension questions, vocabulary exercises, and dialogue practice at various proficiency levels.",
+    "why_it_matters": "Strong ELA and language learning content generation.",
+    "website_url": "https://twee.com",
+    "affiliate_url": "https://twee.com?ref=dai",
+    "logo_url": "/logos/twee.svg",
+    "ease_of_use_score": 8,
+    "instructional_value_score": 9,
+    "privacy_score": 7,
+    "accessibility_score": 7,
+    "overall_score": 8,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free tier with daily limits. Premium plans available.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Moderate",
+    "grade_levels": [
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers"
+    ],
+    "categories": [
+      "ELA & Language"
+    ],
+    "best_for": [
+      "ELA instruction",
+      "ESL/ELL support",
+      "Reading passage generation",
+      "Vocabulary exercises"
+    ],
+    "not_ideal_for": [
+      "Math instruction",
+      "Science labs",
+      "Administrative tasks"
+    ],
+    "key_features": [
+      "Reading passage generator",
+      "Question creation",
+      "Vocabulary exercises",
+      "Dialogue generation",
+      "Level adaptation"
+    ],
+    "instructional_fit": "Well-suited for language arts and ESL instruction. Content is generated at specified proficiency levels.",
+    "implementation_notes": "Web-based tool. No complex deployment. Individual teacher use.",
+    "privacy_notes": "Medium privacy. Does not process student data. Teacher-only tool.",
+    "accessibility_notes": "Moderate accessibility. Clean web interface.",
+    "admin_integration_notes": "Individual tool. No district management features.",
+    "editorial_verdict": "A focused, effective tool for ELA and language teachers. Does its niche well.",
+    "tags": [
+      "ELA",
+      "language",
+      "reading",
+      "vocabulary",
+      "ESL"
+    ],
+    "integrations": [],
+    "similar_tool_slugs": [
+      "diffit",
+      "eduaide-ai"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "partial"
+      }
+    ],
+    "listing_tier": "basic",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-02-25",
+    "status": "published"
+  },
+  {
+    "name": "Socratic",
+    "slug": "socratic",
+    "vendor": "Google",
+    "description": "Google-backed AI homework helper that explains concepts step-by-step — high privacy and strong accessibility for student use.",
+    "overview": "Socratic by Google helps students understand homework problems by providing step-by-step explanations. It uses AI to break down questions across subjects and provide educational resources.",
+    "why_it_matters": "Safe, free, Google-backed student support tool.",
+    "website_url": "https://socratic.org",
+    "affiliate_url": "https://socratic.org?ref=dai",
+    "logo_url": "/logos/socratic.svg",
+    "ease_of_use_score": 9,
+    "instructional_value_score": 8,
+    "privacy_score": 9,
+    "accessibility_score": 8,
+    "overall_score": 8.4,
+    "pricing_type": "Free",
+    "pricing_details": "Completely free. No premium tier.",
+    "privacy_level": "High",
+    "accessibility_level": "Strong",
+    "grade_levels": [
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Students"
+    ],
+    "categories": [
+      "Student Support"
+    ],
+    "best_for": [
+      "Homework help",
+      "Concept explanation",
+      "Step-by-step math",
+      "Science questions"
+    ],
+    "not_ideal_for": [
+      "Teacher planning",
+      "Assessment creation",
+      "Creative projects"
+    ],
+    "key_features": [
+      "Photo-based question input",
+      "Step-by-step explanations",
+      "Multiple subjects",
+      "Visual learning aids",
+      "Google integration"
+    ],
+    "instructional_fit": "Good supplementary tool for independent student learning. Encourages understanding over answer-copying.",
+    "implementation_notes": "Free mobile app. No account required. No IT deployment needed.",
+    "privacy_notes": "High privacy. Google-backed with strong data protections. No data used for advertising.",
+    "accessibility_notes": "Strong accessibility. Mobile-optimized. Clean, simple interface.",
+    "admin_integration_notes": "No admin controls needed. Free individual tool.",
+    "editorial_verdict": "A trustworthy, free student support tool with Google's privacy infrastructure. Excellent for independent learning.",
+    "tags": [
+      "homework",
+      "student support",
+      "math",
+      "science",
+      "Google",
+      "free"
+    ],
+    "integrations": [],
+    "similar_tool_slugs": [
+      "khanmigo",
+      "schoolai"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "COPPA Compliant",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "basic",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-02-10",
+    "status": "published"
+  },
+  {
+    "name": "Formative",
+    "slug": "formative",
+    "vendor": "Formative (GoFormative)",
+    "description": "Real-time formative assessment platform with AI-powered grading, instant feedback, and intervention tools for data-driven instruction.",
+    "overview": "Formative enables teachers to create assessments with real-time student response tracking. AI features include auto-grading of open-ended responses and intelligent feedback suggestions.",
+    "why_it_matters": "Real-time formative assessment with AI grading.",
+    "website_url": "https://formative.com",
+    "affiliate_url": "https://formative.com?ref=dai",
+    "logo_url": "/logos/formative.svg",
+    "ease_of_use_score": 8,
+    "instructional_value_score": 9,
+    "privacy_score": 7,
+    "accessibility_score": 8,
+    "overall_score": 8.3,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free tier with basic features. Premium for schools and districts.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Strong",
+    "grade_levels": [
+      "K-2",
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Students",
+      "Administrators"
+    ],
+    "categories": [
+      "Assessment"
+    ],
+    "best_for": [
+      "Formative assessment",
+      "Real-time monitoring",
+      "AI grading",
+      "Student feedback"
+    ],
+    "not_ideal_for": [
+      "Lesson planning",
+      "Content creation",
+      "Student-facing AI chat"
+    ],
+    "key_features": [
+      "Real-time response tracking",
+      "AI auto-grading",
+      "Show Your Work",
+      "Intervention alerts",
+      "Standards tracking"
+    ],
+    "instructional_fit": "Excellent for assessment-driven instruction. Real-time data allows on-the-fly adjustments.",
+    "implementation_notes": "Web-based with mobile support. LMS integration. Clever and ClassLink rostering.",
+    "privacy_notes": "Medium privacy. FERPA and COPPA compliant. District-level data agreements available.",
+    "accessibility_notes": "Strong accessibility. VPAT available. Keyboard navigation supported.",
+    "admin_integration_notes": "School and district admin dashboards. Standards-based reporting.",
+    "editorial_verdict": "A powerful formative assessment tool with genuinely useful AI grading. Best for data-driven instruction.",
+    "tags": [
+      "assessment",
+      "formative",
+      "grading",
+      "AI feedback",
+      "real-time"
+    ],
+    "integrations": [
+      "Google Classroom",
+      "Canvas",
+      "Clever",
+      "ClassLink"
+    ],
+    "similar_tool_slugs": [
+      "quizizz-ai",
+      "classpoint-ai",
+      "nearpod"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "COPPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "DPA Available",
+        "status": "available"
+      },
+      {
+        "label": "VPAT/ACR",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "featured",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-02-15",
+    "status": "published"
+  },
+  {
+    "name": "Nearpod",
+    "slug": "nearpod",
+    "vendor": "Renaissance Learning",
+    "description": "Interactive lesson platform with AI-enhanced content creation, VR experiences, and real-time formative assessment — a classroom engagement powerhouse.",
+    "overview": "Nearpod combines pre-built lessons, interactive activities, and formative assessments. Recently enhanced with AI features for lesson creation and content adaptation.",
+    "why_it_matters": "Comprehensive engagement platform with AI enhancements.",
+    "website_url": "https://nearpod.com",
+    "affiliate_url": "https://nearpod.com?ref=dai",
+    "logo_url": "/logos/nearpod.svg",
+    "ease_of_use_score": 9,
+    "instructional_value_score": 9,
+    "privacy_score": 7,
+    "accessibility_score": 8,
+    "overall_score": 8.4,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free tier with limited lessons. School and district pricing through Renaissance.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Strong",
+    "grade_levels": [
+      "K-2",
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Students",
+      "Administrators"
+    ],
+    "categories": [
+      "Engagement"
+    ],
+    "best_for": [
+      "Interactive lessons",
+      "Virtual field trips",
+      "Formative assessment",
+      "Standards-aligned content"
+    ],
+    "not_ideal_for": [
+      "Open-ended AI conversations",
+      "Administrative workflows",
+      "Deep differentiation"
+    ],
+    "key_features": [
+      "Interactive slides",
+      "Virtual reality experiences",
+      "Gamification",
+      "AI lesson builder",
+      "Real-time assessment"
+    ],
+    "instructional_fit": "Strong instructional design framework. VR experiences add unique immersive learning opportunities.",
+    "implementation_notes": "Integrates deeply with major LMS platforms. District deployment well-supported.",
+    "privacy_notes": "Medium privacy. FERPA and COPPA compliant through Renaissance Learning.",
+    "accessibility_notes": "Strong accessibility. VPAT available. Ongoing accessibility improvements.",
+    "admin_integration_notes": "Full district administration suite. Rostering through Clever and ClassLink.",
+    "editorial_verdict": "A mature, well-supported platform for interactive instruction. AI features are evolving but the core platform is rock-solid.",
+    "tags": [
+      "interactive",
+      "VR",
+      "formative assessment",
+      "engagement",
+      "lesson delivery"
+    ],
+    "integrations": [
+      "Google Classroom",
+      "Canvas",
+      "Schoology",
+      "Clever",
+      "ClassLink"
+    ],
+    "similar_tool_slugs": [
+      "curipod",
+      "formative"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "COPPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "SOC 2 Type II",
+        "status": "available"
+      },
+      {
+        "label": "DPA Available",
+        "status": "available"
+      },
+      {
+        "label": "VPAT/ACR",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "verified",
+    "featured_flag": true,
+    "featured_rank": 7,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-02-25",
+    "status": "published"
+  },
+  {
+    "name": "ClassPoint AI",
+    "slug": "classpoint-ai",
+    "vendor": "Inknoe",
+    "description": "AI-powered assessment tool that generates quiz questions directly from PowerPoint slides — seamless for teachers who live in PowerPoint.",
+    "overview": "ClassPoint AI integrates into Microsoft PowerPoint to generate assessment questions from slide content. Teachers can create quizzes, polls, and interactive activities without leaving their presentations.",
+    "why_it_matters": "AI assessment generation inside PowerPoint.",
+    "website_url": "https://classpoint.io",
+    "affiliate_url": "https://classpoint.io?ref=dai",
+    "logo_url": "/logos/classpoint.svg",
+    "ease_of_use_score": 8,
+    "instructional_value_score": 9,
+    "privacy_score": 7,
+    "accessibility_score": 7,
+    "overall_score": 8,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free tier with limited AI generations. Pro plans available.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Moderate",
+    "grade_levels": [
+      "K-2",
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers"
+    ],
+    "categories": [
+      "Assessment"
+    ],
+    "best_for": [
+      "PowerPoint-based assessment",
+      "Quick quiz generation",
+      "In-slide interaction",
+      "Gamification"
+    ],
+    "not_ideal_for": [
+      "Non-PowerPoint users",
+      "Lesson planning",
+      "Writing feedback"
+    ],
+    "key_features": [
+      "AI question generation from slides",
+      "Gamification stars",
+      "Interactive quizzes",
+      "Leaderboard",
+      "PowerPoint integration"
+    ],
+    "instructional_fit": "Excellent for teachers who present via PowerPoint. Reduces the friction of creating assessments.",
+    "implementation_notes": "PowerPoint add-in. Simple installation. Works with Microsoft 365.",
+    "privacy_notes": "Medium privacy. Data processing through Microsoft ecosystem.",
+    "accessibility_notes": "Moderate accessibility. Inherits PowerPoint's accessibility features.",
+    "admin_integration_notes": "School plans available. Basic admin features.",
+    "editorial_verdict": "A smart integration for PowerPoint-heavy teachers. Assessment generation is genuinely useful.",
+    "tags": [
+      "PowerPoint",
+      "assessment",
+      "quiz",
+      "gamification",
+      "Microsoft"
+    ],
+    "integrations": [
+      "Microsoft PowerPoint",
+      "Microsoft 365"
+    ],
+    "similar_tool_slugs": [
+      "quizizz-ai",
+      "formative"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "partial"
+      }
+    ],
+    "listing_tier": "basic",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-03-04",
+    "status": "published"
+  },
+  {
+    "name": "Edpuzzle",
+    "slug": "edpuzzle",
+    "vendor": "Edpuzzle Inc.",
+    "description": "AI-enhanced video learning platform that lets teachers embed questions in any video and track student comprehension in real-time.",
+    "overview": "Edpuzzle allows teachers to take any video and add interactive questions, audio notes, and comments. AI features help generate questions and summaries from video content.",
+    "why_it_matters": "Makes any video an interactive learning experience.",
+    "website_url": "https://edpuzzle.com",
+    "affiliate_url": "https://edpuzzle.com?ref=dai",
+    "logo_url": "/logos/edpuzzle.svg",
+    "ease_of_use_score": 9,
+    "instructional_value_score": 9,
+    "privacy_score": 7,
+    "accessibility_score": 8,
+    "overall_score": 8.3,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free tier for individual teachers. School and district pricing.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Strong",
+    "grade_levels": [
+      "K-2",
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Students"
+    ],
+    "categories": [
+      "Video Learning"
+    ],
+    "best_for": [
+      "Video-based learning",
+      "Flipped classroom",
+      "Student accountability",
+      "Comprehension checks"
+    ],
+    "not_ideal_for": [
+      "Text-heavy content",
+      "Real-time interaction",
+      "Creative projects"
+    ],
+    "key_features": [
+      "Embed questions in videos",
+      "Student progress tracking",
+      "AI question generation",
+      "Video cropping",
+      "LMS integration"
+    ],
+    "instructional_fit": "Transforms passive video watching into active learning. Strong for flipped classroom models.",
+    "implementation_notes": "Web-based. Easy LMS integration. Clever and Google SSO.",
+    "privacy_notes": "Medium privacy. FERPA and COPPA compliant. Student data protections in place.",
+    "accessibility_notes": "Strong accessibility. Supports captions. Mobile responsive.",
+    "admin_integration_notes": "School and district plans. Admin dashboard. Rostering support.",
+    "editorial_verdict": "A well-established video learning platform with thoughtful AI additions. Essential for flipped classroom approaches.",
+    "tags": [
+      "video",
+      "flipped classroom",
+      "interactive",
+      "comprehension",
+      "tracking"
+    ],
+    "integrations": [
+      "Google Classroom",
+      "Canvas",
+      "Schoology",
+      "Clever"
+    ],
+    "similar_tool_slugs": [
+      "nearpod"
+    ],
+    "compliance_signals": [
+      {
+        "label": "FERPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "COPPA Compliant",
+        "status": "available"
+      },
+      {
+        "label": "DPA Available",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "featured",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-03-10",
+    "status": "published"
+  },
+  {
+    "name": "Pictory",
+    "slug": "pictory",
+    "vendor": "Pictory AI",
+    "description": "AI video creation platform that turns text and articles into short videos — useful for creating visual content from written materials.",
+    "overview": "Pictory uses AI to convert text content into video summaries. Teachers can turn blog posts, articles, or lesson notes into short video content for students.",
+    "why_it_matters": "Converts text content into video format with AI.",
+    "website_url": "https://pictory.ai",
+    "affiliate_url": "https://pictory.ai?ref=dai",
+    "logo_url": "/logos/pictory.svg",
+    "ease_of_use_score": 8,
+    "instructional_value_score": 8,
+    "privacy_score": 6,
+    "accessibility_score": 7,
+    "overall_score": 7.8,
+    "pricing_type": "Paid",
+    "pricing_details": "Starter at $19/mo. Professional plans available.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Moderate",
+    "grade_levels": [
+      "K-2",
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers"
+    ],
+    "categories": [
+      "Content Creation"
+    ],
+    "best_for": [
+      "Text-to-video conversion",
+      "Summary videos",
+      "Content repurposing"
+    ],
+    "not_ideal_for": [
+      "Interactive learning",
+      "Assessment",
+      "Student-facing AI",
+      "Live instruction"
+    ],
+    "key_features": [
+      "Text-to-video",
+      "Auto-captioning",
+      "Stock media library",
+      "Script editor",
+      "Brand customization"
+    ],
+    "instructional_fit": "Useful for creating supplementary video content. Quality varies and teacher review is essential.",
+    "implementation_notes": "Web-based. Individual accounts. No education-specific deployment.",
+    "privacy_notes": "Medium privacy. General platform, not education-specific. Standard data handling.",
+    "accessibility_notes": "Moderate accessibility. Auto-captions support accessibility. Web-based interface.",
+    "admin_integration_notes": "No education admin features. Individual tool use.",
+    "editorial_verdict": "A useful content creation tool for teachers who want to add video to their materials, but not education-specific.",
+    "tags": [
+      "video creation",
+      "text-to-video",
+      "content",
+      "captions"
+    ],
+    "integrations": [],
+    "similar_tool_slugs": [
+      "lumen5",
+      "canva",
+      "adobe-express"
+    ],
+    "compliance_signals": [],
+    "listing_tier": "basic",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-01-20",
+    "status": "published"
+  },
+  {
+    "name": "Lumen5",
+    "slug": "lumen5",
+    "vendor": "Lumen5",
+    "description": "AI-powered video creation platform that transforms text content into engaging video presentations — good for repurposing educational content.",
+    "overview": "Lumen5 uses AI to create videos from text content. Teachers and administrators can turn newsletters, blog posts, and reports into shareable video content.",
+    "why_it_matters": "Quick video creation from text for education communications.",
+    "website_url": "https://lumen5.com",
+    "affiliate_url": "https://lumen5.com?ref=dai",
+    "logo_url": "/logos/lumen5.svg",
+    "ease_of_use_score": 8,
+    "instructional_value_score": 8,
+    "privacy_score": 6,
+    "accessibility_score": 7,
+    "overall_score": 7.7,
+    "pricing_type": "Freemium",
+    "pricing_details": "Free tier with watermark. Starter at $19/mo.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Moderate",
+    "grade_levels": [
+      "K-2",
+      "3-5",
+      "6-8",
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Administrators"
+    ],
+    "categories": [
+      "Content Creation"
+    ],
+    "best_for": [
+      "Video summaries",
+      "Communication content",
+      "Newsletter-to-video",
+      "Social media content"
+    ],
+    "not_ideal_for": [
+      "Direct instruction",
+      "Assessment",
+      "Student interaction",
+      "Complex lesson design"
+    ],
+    "key_features": [
+      "Text-to-video",
+      "AI scene generation",
+      "Media library",
+      "Brand templates",
+      "Auto-resizing for platforms"
+    ],
+    "instructional_fit": "Better suited for communication and marketing than direct instruction. Useful for admin-to-community content.",
+    "implementation_notes": "Web-based platform. Individual accounts.",
+    "privacy_notes": "Medium privacy. General platform. Not education-specific.",
+    "accessibility_notes": "Moderate accessibility. Auto-captions available.",
+    "admin_integration_notes": "No education-specific admin features.",
+    "editorial_verdict": "More useful for district communications than direct classroom instruction. A nice-to-have, not a must-have.",
+    "tags": [
+      "video creation",
+      "text-to-video",
+      "communications",
+      "marketing"
+    ],
+    "integrations": [],
+    "similar_tool_slugs": [
+      "pictory",
+      "canva"
+    ],
+    "compliance_signals": [],
+    "listing_tier": "basic",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-01-15",
+    "status": "published"
+  },
+  {
+    "name": "Notion AI",
+    "slug": "notion-ai",
+    "vendor": "Notion Labs",
+    "description": "AI-enhanced productivity workspace powerful for teacher organization, curriculum planning, and workflow management.",
+    "overview": "Notion AI adds AI capabilities to the Notion workspace platform, enabling teachers to draft content, summarize notes, create templates, and organize complex projects with AI assistance.",
+    "why_it_matters": "Powerful for teacher organization and workflows.",
+    "website_url": "https://notion.so",
+    "affiliate_url": "https://notion.so?ref=dai",
+    "logo_url": "/logos/notion.svg",
+    "ease_of_use_score": 8,
+    "instructional_value_score": 9,
+    "privacy_score": 7,
+    "accessibility_score": 7,
+    "overall_score": 8.2,
+    "pricing_type": "Paid",
+    "pricing_details": "Plus at $10/mo. AI add-on at $8/mo. Education discounts available.",
+    "privacy_level": "Medium",
+    "accessibility_level": "Moderate",
+    "grade_levels": [
+      "9-12"
+    ],
+    "audiences": [
+      "Teachers",
+      "Curriculum Leaders",
+      "Administrators"
+    ],
+    "categories": [
+      "Productivity"
+    ],
+    "best_for": [
+      "Curriculum planning",
+      "Teacher organization",
+      "Note-taking",
+      "Content drafting",
+      "Workflow management"
+    ],
+    "not_ideal_for": [
+      "Student-facing activities",
+      "Assessment",
+      "Younger students",
+      "Real-time classroom use"
+    ],
+    "key_features": [
+      "AI writing assistant",
+      "Database organization",
+      "Template generation",
+      "Summary creation",
+      "Project management"
+    ],
+    "instructional_fit": "Strong for teacher productivity and planning. Not designed for direct student interaction.",
+    "implementation_notes": "Web and desktop app. Individual or team accounts.",
+    "privacy_notes": "Medium privacy. Enterprise features available for organizations. SOC 2 compliant.",
+    "accessibility_notes": "Moderate accessibility. Keyboard navigation supported. Some accessibility gaps in complex views.",
+    "admin_integration_notes": "Team and enterprise plans include admin controls.",
+    "editorial_verdict": "A power tool for organized teachers and curriculum teams. The AI features enhance an already excellent productivity platform.",
+    "tags": [
+      "productivity",
+      "organization",
+      "planning",
+      "AI writing",
+      "workspace"
+    ],
+    "integrations": [
+      "Google Drive",
+      "Slack",
+      "GitHub"
+    ],
+    "similar_tool_slugs": [],
+    "compliance_signals": [
+      {
+        "label": "SOC 2 Type II",
+        "status": "available"
+      }
+    ],
+    "listing_tier": "basic",
+    "featured_flag": false,
+    "featured_rank": null,
+    "is_sponsored": false,
+    "last_reviewed_at": "2026-03-22",
+    "status": "published"
+  }
+]
