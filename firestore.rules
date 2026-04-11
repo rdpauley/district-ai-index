@@ -1,0 +1,36 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Public read for published tools
+    match /tools/{toolId} {
+      allow read: if true;
+      allow write: if false; // admin SDK only
+    }
+    // Public read for categories
+    match /categories/{catId} {
+      allow read: if true;
+      allow write: if false;
+    }
+    // Public insert for newsletter
+    match /newsletter_subscribers/{docId} {
+      allow create: if true;
+      allow read, update, delete: if false;
+    }
+    // Public insert for submissions
+    match /submissions/{docId} {
+      allow create: if true;
+      allow read, update, delete: if false;
+    }
+    // Admin-only collections
+    match /affiliate_clicks/{docId} {
+      allow read, write: if false;
+    }
+    match /automation_logs/{docId} {
+      allow read, write: if false;
+    }
+    match /monthly_rankings/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+  }
+}
