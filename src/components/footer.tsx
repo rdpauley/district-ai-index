@@ -12,18 +12,18 @@ const footerLinks = {
     { href: "/reports", label: "Reports" },
     { href: "/pricing", label: "Listing Plans" },
     { href: "/dashboard", label: "Dashboard" },
-    { href: "#methodology", label: "Our Methodology" },
+    { href: "/editorial-policy", label: "Our Methodology" },
   ],
   Company: [
-    { href: "#about", label: "About" },
-    { href: "#contact", label: "Contact" },
-    { href: "#privacy-policy", label: "Privacy Policy" },
-    { href: "#terms", label: "Terms of Service" },
+    { href: "/about", label: "About" },
+    { href: "/contact", label: "Contact" },
+    { href: "/privacy-policy", label: "Privacy Policy" },
+    { href: "/terms", label: "Terms of Service" },
   ],
   Compliance: [
-    { href: "#accessibility", label: "Accessibility Statement" },
-    { href: "#data-practices", label: "Data Practices" },
-    { href: "#editorial-policy", label: "Editorial Policy" },
+    { href: "/accessibility-statement", label: "Accessibility Statement" },
+    { href: "/data-practices", label: "Data Practices" },
+    { href: "/editorial-policy", label: "Editorial Policy" },
   ],
 };
 
@@ -64,7 +64,7 @@ export function Footer() {
                 District AI Index is designed to meet WCAG 2.1 Level AA standards. We are committed
                 to providing an inclusive experience for all educators. If you encounter any
                 accessibility barriers,{" "}
-                <Link href="#contact" className="text-accent-blue underline hover:text-navy">
+                <Link href="/contact" className="text-accent-blue underline hover:text-navy">
                   please contact us
                 </Link>
                 .
@@ -87,13 +87,13 @@ export function Footer() {
             </span>
           </div>
           <div className="flex items-center gap-4">
-            <Link href="#privacy-policy" className="text-xs text-muted-foreground hover:text-navy transition-colors">
+            <Link href="/privacy-policy" className="text-xs text-muted-foreground hover:text-navy transition-colors">
               Privacy
             </Link>
-            <Link href="#terms" className="text-xs text-muted-foreground hover:text-navy transition-colors">
+            <Link href="/terms" className="text-xs text-muted-foreground hover:text-navy transition-colors">
               Terms
             </Link>
-            <Link href="#accessibility" className="text-xs text-muted-foreground hover:text-navy transition-colors">
+            <Link href="/accessibility-statement" className="text-xs text-muted-foreground hover:text-navy transition-colors">
               Accessibility
             </Link>
           </div>
