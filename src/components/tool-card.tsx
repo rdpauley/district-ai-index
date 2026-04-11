@@ -5,6 +5,8 @@ import type { Tool } from "@/lib/types";
 import { PrivacyBadge, PricingBadge } from "./status-badge";
 import { ScoreRingInline } from "./score-ring";
 import { useCompare } from "@/lib/compare-context";
+import { getTrackedUrl } from "@/lib/affiliate";
+import { ToolLogo } from "./tool-logo";
 import { ExternalLink, Star, ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -39,12 +41,7 @@ export function ToolCard({ tool, featured = false }: ToolCardProps) {
       {/* Header */}
       <div className="flex items-start justify-between mb-3">
         <div className="flex items-center gap-3 min-w-0">
-          <div
-            className="flex h-11 w-11 items-center justify-center rounded-lg bg-navy-50 text-sm font-bold text-navy shrink-0"
-            aria-hidden="true"
-          >
-            {tool.name.charAt(0)}
-          </div>
+          <ToolLogo name={tool.name} logoUrl={tool.logo_url} size="md" />
           <div className="min-w-0">
             <h3 className="text-sm font-bold text-navy group-hover:text-accent-blue transition-colors truncate">
               <Link href={`/tool/${tool.slug}`} className="after:absolute after:inset-0">
@@ -110,7 +107,7 @@ export function ToolCard({ tool, featured = false }: ToolCardProps) {
           View Details <ArrowRight className="h-3 w-3" aria-hidden="true" />
         </Link>
         <a
-          href={tool.website}
+          href={getTrackedUrl(tool.slug)}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-1.5 rounded-lg border border-border px-3 py-2 text-xs font-semibold text-navy hover:bg-navy-50 transition-colors"

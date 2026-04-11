@@ -3,6 +3,7 @@
 import { useParams } from "next/navigation";
 import { getToolBySlug, getSimilarTools } from "@/lib/seed-data";
 import { useCompare } from "@/lib/compare-context";
+import { getTrackedUrl } from "@/lib/affiliate";
 import { PrivacyBadge, PricingBadge, TierBadge, ComplianceDot } from "@/components/status-badge";
 import { ScoreRingInline } from "@/components/score-ring";
 import Link from "next/link";
@@ -79,7 +80,7 @@ export default function ToolProfilePage() {
 
               <div className="flex flex-wrap items-center gap-2 mt-6">
                 <a
-                  href={tool.website}
+                  href={getTrackedUrl(tool.slug)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 rounded-lg bg-navy px-4 py-2.5 text-sm font-semibold text-white hover:bg-navy-800 transition-colors"

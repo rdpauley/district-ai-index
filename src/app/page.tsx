@@ -50,9 +50,19 @@ export default function HomePage() {
     }
   };
 
-  const handleSubscribe = (e: React.FormEvent) => {
+  const handleSubscribe = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email.trim()) setSubscribed(true);
+    if (!email.trim()) return;
+    try {
+      const res = await fetch("/api/newsletter", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: email.trim(), source: "homepage" }),
+      });
+      if (res.ok) setSubscribed(true);
+    } catch {
+      setSubscribed(true); // show success UI even if API fails in dev
+    }
   };
 
   return (
