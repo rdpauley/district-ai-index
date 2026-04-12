@@ -55,6 +55,7 @@ export default function AdminPage() {
             { href: "/admin/playbook", label: "Business Playbook", desc: "Full pricing rationale, Day 1 plan, reinvestment strategy (private)", icon: TrendingUp, color: "text-danger" },
             { href: "/admin/marketing-plan", label: "Marketing Plan", desc: "90-day schedule, scripts for every conversation (private)", icon: Users, color: "text-[#7C3AED]" },
             { href: "/admin/compliance-framework", label: "Compliance Framework", desc: "How to verify compliance without a lawyer — your legal shield", icon: Shield, color: "text-warning" },
+            { href: "/admin/security-architecture", label: "Security Architecture", desc: "OWASP-aligned hardening, Top 10 fixes, incident response plan", icon: Shield, color: "text-danger" },
             { href: "/admin/workflow", label: "Daily Workflow", desc: "2-4 hr/day playbook + automated compliance scanner", icon: Timer, color: "text-accent-blue" },
             { href: "/admin/pricing", label: "Pricing Operations", desc: "Tier economics, MRR, subscribers, unit margins", icon: DollarSign, color: "text-success" },
             { href: "/admin/reports", label: "Score Reports Review", desc: "Bulk review all 64 tool reports + compliance gaps", icon: FileText, color: "text-accent-blue" },
