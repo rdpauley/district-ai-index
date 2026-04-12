@@ -211,6 +211,9 @@ export default function ToolProfilePage() {
                   <span className="h-2 w-2 rounded-full bg-danger" aria-hidden="true" /> Unavailable
                 </span>
               </div>
+              <p className="mt-3 pt-3 border-t border-border/50 text-[11px] text-muted-foreground leading-relaxed">
+                <strong>Disclaimer:</strong> These signals reflect publicly-available vendor documentation as of the last review date. The District AI Index editorial team reports documentation status — we do not certify compliance. Districts should independently verify all claims directly with vendors as part of their procurement process. See our <Link href="/editorial-policy" className="text-accent-blue hover:underline">full methodology and disclaimer</Link>.
+              </p>
             </div>
 
             {/* Accessibility Notes */}

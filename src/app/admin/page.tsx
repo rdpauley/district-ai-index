@@ -5,7 +5,7 @@ import { tools } from "@/lib/seed-data";
 import { PrivacyBadge, TierBadge } from "@/components/status-badge";
 import { ScoreRingInline } from "@/components/score-ring";
 import Link from "next/link";
-import { Settings, Search, Eye, FileEdit, CheckCircle2, Clock, AlertCircle, Trash2, FileText, BarChart3, Users, DollarSign, LogOut, Activity, TrendingUp, ArrowRight } from "lucide-react";
+import { Settings, Search, Eye, FileEdit, CheckCircle2, Clock, AlertCircle, Trash2, FileText, BarChart3, Users, DollarSign, LogOut, Activity, TrendingUp, ArrowRight, Shield, Timer } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import type { SubmissionStatus, ListingTier } from "@/lib/types";
@@ -53,7 +53,9 @@ export default function AdminPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
           {[
             { href: "/admin/playbook", label: "Business Playbook", desc: "Full pricing rationale, Day 1 plan, reinvestment strategy (private)", icon: TrendingUp, color: "text-danger" },
-            { href: "/admin/marketing-plan", label: "Marketing Plan", desc: "90-day schedule, scripts for every conversation, check-ins (private)", icon: Users, color: "text-[#7C3AED]" },
+            { href: "/admin/marketing-plan", label: "Marketing Plan", desc: "90-day schedule, scripts for every conversation (private)", icon: Users, color: "text-[#7C3AED]" },
+            { href: "/admin/compliance-framework", label: "Compliance Framework", desc: "How to verify compliance without a lawyer — your legal shield", icon: Shield, color: "text-warning" },
+            { href: "/admin/workflow", label: "Daily Workflow", desc: "2-4 hr/day playbook + automated compliance scanner", icon: Timer, color: "text-accent-blue" },
             { href: "/admin/pricing", label: "Pricing Operations", desc: "Tier economics, MRR, subscribers, unit margins", icon: DollarSign, color: "text-success" },
             { href: "/admin/reports", label: "Score Reports Review", desc: "Bulk review all 64 tool reports + compliance gaps", icon: FileText, color: "text-accent-blue" },
             { href: "/admin/operations", label: "Business Operations", desc: "System health, weekly rhythm, revenue streams, tech stack", icon: Activity, color: "text-[#7C3AED]" },

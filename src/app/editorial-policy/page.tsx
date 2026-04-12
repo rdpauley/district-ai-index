@@ -138,6 +138,34 @@ export default function EditorialPolicyPage() {
             </ul>
           </section>
 
+          {/* Compliance Disclaimer — CRITICAL */}
+          <section>
+            <h2 className="text-xl font-bold text-navy mb-4 flex items-center gap-2">
+              <ShieldCheck className="h-5 w-5 text-accent-blue" aria-hidden="true" /> Compliance Documentation — Important Disclaimer
+            </h2>
+            <div className="rounded-xl border-2 border-accent-blue/20 bg-accent-blue/5 p-6">
+              <p className="font-bold text-navy mb-3">What our compliance signals mean — and what they don&apos;t mean:</p>
+              <div className="space-y-3 text-sm text-charcoal">
+                <p>
+                  <strong>The District AI Index editorial team reviews publicly-available vendor documentation to report compliance documentation status.</strong> We do not certify compliance. Vendors are responsible for their own legal claims.
+                </p>
+                <p>When we mark a tool as &ldquo;FERPA Compliant,&rdquo; &ldquo;COPPA Compliant,&rdquo; &ldquo;SOC 2 Type II,&rdquo; &ldquo;DPA Available,&rdquo; or &ldquo;VPAT/ACR Available,&rdquo; we mean one of the following:</p>
+                <ul className="list-disc pl-5 space-y-1">
+                  <li><strong>&ldquo;Available&rdquo;</strong> — The vendor has published documentation publicly accessible via URL (linked on the tool profile)</li>
+                  <li><strong>&ldquo;Partial&rdquo;</strong> — The vendor references the standard but documentation is incomplete, gated, or outdated</li>
+                  <li><strong>&ldquo;Unavailable&rdquo;</strong> — The vendor has explicitly stated the standard is not met, or no documentation exists</li>
+                  <li><strong>&ldquo;Unknown&rdquo;</strong> — We have not been able to verify documentation either way</li>
+                </ul>
+                <p className="font-semibold">
+                  These signals reflect documentation status as of the last editorial review date. Compliance landscapes change. Vendor claims may change. Documents may be removed or updated.
+                </p>
+                <p className="font-bold text-navy mt-4">
+                  Districts must independently verify all compliance claims directly with vendors as part of their procurement process. District AI Index provides a starting point for evaluation, not a substitute for legal, privacy, or accessibility review.
+                </p>
+              </div>
+            </div>
+          </section>
+
           {/* Editorial Independence */}
           <section>
             <h2 className="text-xl font-bold text-navy mb-4 flex items-center gap-2">
