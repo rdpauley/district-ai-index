@@ -5,7 +5,8 @@ import { tools } from "@/lib/seed-data";
 import { PrivacyBadge, TierBadge } from "@/components/status-badge";
 import { ScoreRingInline } from "@/components/score-ring";
 import Link from "next/link";
-import { Settings, Search, Eye, FileEdit, CheckCircle2, Clock, AlertCircle, Trash2, FileText, BarChart3, Users, DollarSign } from "lucide-react";
+import { Settings, Search, Eye, FileEdit, CheckCircle2, Clock, AlertCircle, Trash2, FileText, BarChart3, Users, DollarSign, LogOut, Activity, TrendingUp, ArrowRight } from "lucide-react";
+import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import type { SubmissionStatus, ListingTier } from "@/lib/types";
 
@@ -24,16 +25,48 @@ const statusConfig: Record<SubmissionStatus, { label: string; icon: typeof Clock
 };
 
 export default function AdminPage() {
+  const router = useRouter();
   const [activeTab, setActiveTab] = useState<"queue" | "tools" | "analytics">("queue");
   const [search, setSearch] = useState("");
   const filteredTools = search ? tools.filter((t) => t.name.toLowerCase().includes(search.toLowerCase()) || t.vendor.toLowerCase().includes(search.toLowerCase())) : tools;
 
+  const handleLogout = async () => {
+    await fetch("/api/admin/logout", { method: "POST" });
+    router.push("/admin/login");
+    router.refresh();
+  };
+
   return (
     <div className="bg-white min-h-screen">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 space-y-6">
-        <div>
-          <h1 className="text-2xl font-bold text-navy flex items-center gap-2"><Settings className="h-6 w-6 text-accent-blue" aria-hidden="true" /> Admin Panel</h1>
-          <p className="mt-1 text-sm text-muted-foreground">Manage tool listings, review submissions, and monitor analytics</p>
+        <div className="flex items-start justify-between">
+          <div>
+            <h1 className="text-2xl font-bold text-navy flex items-center gap-2"><Settings className="h-6 w-6 text-accent-blue" aria-hidden="true" /> Admin Panel</h1>
+            <p className="mt-1 text-sm text-muted-foreground">Manage tool listings, review submissions, and monitor business operations</p>
+          </div>
+          <button onClick={handleLogout} className="inline-flex items-center gap-1.5 rounded-lg border border-border px-3 py-2 text-xs font-medium text-charcoal-light hover:bg-navy-50 hover:text-navy transition-colors">
+            <LogOut className="h-3.5 w-3.5" aria-hidden="true" /> Sign out
+          </button>
+        </div>
+
+        {/* Admin Navigation */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {[
+            { href: "/admin/pricing", label: "Pricing Operations", desc: "Tier economics, MRR, subscribers, unit margins", icon: DollarSign, color: "text-success" },
+            { href: "/admin/reports", label: "Score Reports Review", desc: "Bulk review all 64 tool reports + compliance gaps", icon: FileText, color: "text-accent-blue" },
+            { href: "/admin/operations", label: "Business Operations", desc: "System health, weekly rhythm, revenue streams, tech stack", icon: Activity, color: "text-[#7C3AED]" },
+          ].map((item) => (
+            <Link key={item.href} href={item.href} className="group rounded-xl border border-border p-5 hover:border-accent-blue/30 hover:shadow-md transition-all">
+              <div className="flex items-start justify-between mb-2">
+                <div className={cn("rounded-lg bg-navy-50 p-2", item.color)}>
+                  <item.icon className="h-5 w-5" aria-hidden="true" />
+                </div>
+                <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-accent-blue transition-colors" aria-hidden="true" />
+              </div>
+              <h3 className="text-sm font-bold text-navy">{item.label}</h3>
+              <p className="text-xs text-muted-foreground mt-1">{item.desc}</p>
+            </Link>
+          ))}
         </div>
 
         {/* Stats */}
