@@ -9,10 +9,8 @@ const footerLinks = {
     { href: "/submit", label: "Submit a Tool" },
   ],
   Resources: [
-    { href: "/reports", label: "Reports" },
     { href: "/pricing", label: "Listing Plans" },
     { href: "/dashboard", label: "Dashboard" },
-    { href: "/editorial-policy", label: "Our Methodology" },
   ],
   Company: [
     { href: "/about", label: "About" },
@@ -23,7 +21,6 @@ const footerLinks = {
   Compliance: [
     { href: "/accessibility-statement", label: "Accessibility Statement" },
     { href: "/data-practices", label: "Data Practices" },
-    { href: "/editorial-policy", label: "Editorial Policy" },
   ],
 };
 
