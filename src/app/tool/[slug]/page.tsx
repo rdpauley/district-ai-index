@@ -107,6 +107,12 @@ export default function ToolProfilePage() {
                 <button className="inline-flex items-center gap-1.5 rounded-lg border border-border px-4 py-2.5 text-sm font-semibold text-charcoal-light hover:bg-navy-50 hover:text-navy transition-colors">
                   <Mail className="h-4 w-4" aria-hidden="true" /> Request Demo
                 </button>
+                <Link
+                  href={`/tool/${tool.slug}/report`}
+                  className="inline-flex items-center gap-1.5 rounded-lg border border-accent-blue/30 bg-accent-blue/5 px-4 py-2.5 text-sm font-semibold text-accent-blue hover:bg-accent-blue/10 transition-colors"
+                >
+                  <FileText className="h-4 w-4" aria-hidden="true" /> View Score Report
+                </Link>
               </div>
             </div>
 
