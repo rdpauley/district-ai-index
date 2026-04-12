@@ -20,6 +20,7 @@ const footerLinks = {
   ],
   Compliance: [
     { href: "/accessibility-statement", label: "Accessibility Statement" },
+    { href: "/accessibility-conformance-report", label: "VPAT / ACR" },
     { href: "/data-practices", label: "Data Practices" },
   ],
 };

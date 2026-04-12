@@ -32,5 +32,15 @@ service cloud.firestore {
       allow read: if true;
       allow write: if false;
     }
+    // CRM collections — admin-only (service role bypasses these rules)
+    match /contacts/{docId} {
+      allow read, write: if false;
+    }
+    match /interactions/{docId} {
+      allow read, write: if false;
+    }
+    match /tasks/{docId} {
+      allow read, write: if false;
+    }
   }
 }
