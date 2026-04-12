@@ -53,6 +53,7 @@ export default function AdminPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
           {[
             { href: "/admin/playbook", label: "Business Playbook", desc: "Full pricing rationale, Day 1 plan, reinvestment strategy (private)", icon: TrendingUp, color: "text-danger" },
+            { href: "/admin/marketing-plan", label: "Marketing Plan", desc: "90-day schedule, scripts for every conversation, check-ins (private)", icon: Users, color: "text-[#7C3AED]" },
             { href: "/admin/pricing", label: "Pricing Operations", desc: "Tier economics, MRR, subscribers, unit margins", icon: DollarSign, color: "text-success" },
             { href: "/admin/reports", label: "Score Reports Review", desc: "Bulk review all 64 tool reports + compliance gaps", icon: FileText, color: "text-accent-blue" },
             { href: "/admin/operations", label: "Business Operations", desc: "System health, weekly rhythm, revenue streams, tech stack", icon: Activity, color: "text-[#7C3AED]" },
