@@ -5,8 +5,7 @@ import { tools } from "@/lib/seed-data";
 import { PrivacyBadge, TierBadge } from "@/components/status-badge";
 import { ScoreRingInline } from "@/components/score-ring";
 import Link from "next/link";
-import { Settings, Search, Eye, FileEdit, CheckCircle2, Clock, AlertCircle, Trash2, FileText, BarChart3, Users, DollarSign, LogOut, Activity, TrendingUp, ArrowRight, Shield, Timer, Briefcase } from "lucide-react";
-import { useRouter } from "next/navigation";
+import { Settings, Search, Eye, FileEdit, CheckCircle2, Clock, AlertCircle, Trash2, FileText, BarChart3, Users, DollarSign, Activity, TrendingUp, ArrowRight, Shield, Timer, Briefcase } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { SubmissionStatus, ListingTier } from "@/lib/types";
 
@@ -25,28 +24,16 @@ const statusConfig: Record<SubmissionStatus, { label: string; icon: typeof Clock
 };
 
 export default function AdminPage() {
-  const router = useRouter();
   const [activeTab, setActiveTab] = useState<"queue" | "tools" | "analytics">("queue");
   const [search, setSearch] = useState("");
   const filteredTools = search ? tools.filter((t) => t.name.toLowerCase().includes(search.toLowerCase()) || t.vendor.toLowerCase().includes(search.toLowerCase())) : tools;
 
-  const handleLogout = async () => {
-    await fetch("/api/admin/logout", { method: "POST" });
-    router.push("/admin/login");
-    router.refresh();
-  };
-
   return (
     <div className="bg-white min-h-screen">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 space-y-6">
-        <div className="flex items-start justify-between">
-          <div>
-            <h1 className="text-2xl font-bold text-navy flex items-center gap-2"><Settings className="h-6 w-6 text-accent-blue" aria-hidden="true" /> Admin Panel</h1>
-            <p className="mt-1 text-sm text-muted-foreground">Manage tool listings, review submissions, and monitor business operations</p>
-          </div>
-          <button onClick={handleLogout} className="inline-flex items-center gap-1.5 rounded-lg border border-border px-3 py-2 text-xs font-medium text-charcoal-light hover:bg-navy-50 hover:text-navy transition-colors">
-            <LogOut className="h-3.5 w-3.5" aria-hidden="true" /> Sign out
-          </button>
+        <div>
+          <h1 className="text-2xl font-bold text-navy flex items-center gap-2"><Settings className="h-6 w-6 text-accent-blue" aria-hidden="true" /> Admin Panel</h1>
+          <p className="mt-1 text-sm text-muted-foreground">Manage tool listings, review submissions, and monitor business operations</p>
         </div>
 
         {/* Admin Navigation */}
