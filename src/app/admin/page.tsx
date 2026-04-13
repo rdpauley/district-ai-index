@@ -5,7 +5,7 @@ import { tools } from "@/lib/seed-data";
 import { PrivacyBadge, TierBadge } from "@/components/status-badge";
 import { ScoreRingInline } from "@/components/score-ring";
 import Link from "next/link";
-import { Settings, Search, Eye, FileEdit, CheckCircle2, Clock, AlertCircle, Trash2, FileText, BarChart3, Users, DollarSign, Activity, TrendingUp, ArrowRight, Shield, Timer, Briefcase } from "lucide-react";
+import { Settings, Search, Eye, FileEdit, CheckCircle2, Clock, AlertCircle, Trash2, FileText, BarChart3, Users, DollarSign, Activity, TrendingUp, ArrowRight, Shield, Timer, Briefcase, CalendarDays } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { SubmissionStatus, ListingTier } from "@/lib/types";
 
@@ -39,6 +39,7 @@ export default function AdminPage() {
         {/* Admin Navigation */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
           {[
+            { href: "/admin/calendar", label: "Daily Work Calendar", desc: "What to work on each day — check items off as you finish them", icon: CalendarDays, color: "text-success" },
             { href: "/admin/crm", label: "CRM & Operations Hub", desc: "Contacts, pipeline, activity log, tasks, follow-ups — your daily command center", icon: Briefcase, color: "text-accent-blue" },
             { href: "/admin/playbook", label: "Business Playbook", desc: "Full pricing rationale, Day 1 plan, reinvestment strategy (private)", icon: TrendingUp, color: "text-danger" },
             { href: "/admin/marketing-plan", label: "Marketing Plan", desc: "90-day schedule, scripts for every conversation (private)", icon: Users, color: "text-[#7C3AED]" },
