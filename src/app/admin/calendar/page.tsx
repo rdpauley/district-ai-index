@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import {
   ArrowLeft, ChevronLeft, ChevronRight, Plus, Calendar as CalIcon,
-  CheckCircle2, Circle, Trash2, X, AlertTriangle,
+  CheckCircle2, Circle, ArrowRightCircle, X, AlertTriangle, Sparkles,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { Task, TaskPriority } from "@/lib/crm/types";
@@ -46,6 +46,8 @@ export default function AdminCalendarPage() {
   const [showNew, setShowNew] = useState(false);
   const [newTitle, setNewTitle] = useState("");
   const [newPriority, setNewPriority] = useState<TaskPriority>("medium");
+  const [seeding, setSeeding] = useState(false);
+  const [seedMsg, setSeedMsg] = useState<string | null>(null);
 
   const loadTasks = useCallback(async () => {
     setLoading(true);
@@ -114,14 +116,49 @@ export default function AdminCalendarPage() {
     }
   }
 
-  async function deleteTask(task: Task) {
+  async function pushToNextDay(task: Task) {
     if (!task.id) return;
-    if (!confirm(`Delete "${task.title}"?`)) return;
-    setTasks((prev) => prev.filter((t) => t.id !== task.id));
+    // Next day is the day AFTER the task's current due_date (or today if undated)
+    const base = task.due_date ? fromIso(task.due_date.slice(0, 10)) : new Date(today);
+    const next = new Date(base);
+    next.setDate(base.getDate() + 1);
+    const nextIso = toIso(next);
+
+    // Optimistic update
+    setTasks((prev) => prev.map((t) => t.id === task.id ? { ...t, due_date: nextIso } : t));
     try {
-      await fetch(`/api/admin/crm/tasks/${task.id}`, { method: "DELETE" });
+      await fetch(`/api/admin/crm/tasks/${task.id}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ due_date: nextIso }),
+      });
     } catch {
-      loadTasks();
+      loadTasks(); // revert
+    }
+  }
+
+  async function seedThreeWeeks() {
+    if (seeding) return;
+    if (!confirm("Seed the 3-week operating plan starting today?\n\nThis adds ~40 tasks across the next 21 days. Duplicates by (date, title) are skipped, so it's safe to run again.")) return;
+    setSeeding(true);
+    setSeedMsg(null);
+    try {
+      const res = await fetch("/api/admin/calendar/seed-3weeks", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ startDate: toIso(today) }),
+      });
+      const data = await res.json();
+      if (res.ok) {
+        setSeedMsg(`Seeded ${data.created} tasks (${data.skipped} already existed).`);
+        await loadTasks();
+      } else {
+        setSeedMsg(`Error: ${data.error || "seed failed"}`);
+      }
+    } catch {
+      setSeedMsg("Error: network failure");
+    } finally {
+      setSeeding(false);
     }
   }
 
@@ -173,12 +210,20 @@ export default function AdminCalendarPage() {
                 Plan what you&rsquo;re doing each day. Check items off as you finish them.
               </p>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 flex-wrap">
               {overdueCount > 0 && (
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-danger-bg border border-danger/20 px-3 py-1 text-xs font-semibold text-danger">
                   <AlertTriangle className="h-3.5 w-3.5" aria-hidden="true" /> {overdueCount} overdue
                 </span>
               )}
+              <button
+                onClick={seedThreeWeeks}
+                disabled={seeding}
+                className="inline-flex items-center gap-1.5 rounded-lg bg-accent-blue px-3 py-1.5 text-xs font-semibold text-white hover:bg-accent-blue/90 disabled:opacity-50 transition-colors"
+              >
+                <Sparkles className="h-3.5 w-3.5" aria-hidden="true" />
+                {seeding ? "Seeding..." : "Seed 3-week plan"}
+              </button>
               <button
                 onClick={() => { setCursor(startOfMonth(today)); setSelectedDate(toIso(today)); }}
                 className="rounded-lg border border-border px-3 py-1.5 text-xs font-medium text-charcoal-light hover:bg-navy-50 hover:text-navy"
@@ -187,6 +232,11 @@ export default function AdminCalendarPage() {
               </button>
             </div>
           </div>
+          {seedMsg && (
+            <div className="mt-3 rounded-lg bg-success-bg border border-success/20 px-3 py-2 text-xs text-success" role="status">
+              {seedMsg}
+            </div>
+          )}
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-6">
@@ -308,7 +358,7 @@ export default function AdminCalendarPage() {
               )}
 
               {pendingSelected.map((t) => (
-                <TaskRow key={t.id} task={t} onToggle={() => toggleTask(t)} onDelete={() => deleteTask(t)} />
+                <TaskRow key={t.id} task={t} onToggle={() => toggleTask(t)} onPushNext={() => pushToNextDay(t)} />
               ))}
 
               {doneSelected.length > 0 && (
@@ -317,7 +367,7 @@ export default function AdminCalendarPage() {
                     Completed
                   </div>
                   {doneSelected.map((t) => (
-                    <TaskRow key={t.id} task={t} onToggle={() => toggleTask(t)} onDelete={() => deleteTask(t)} />
+                    <TaskRow key={t.id} task={t} onToggle={() => toggleTask(t)} onPushNext={() => pushToNextDay(t)} />
                   ))}
                 </>
               )}
@@ -397,7 +447,7 @@ export default function AdminCalendarPage() {
   );
 }
 
-function TaskRow({ task, onToggle, onDelete }: { task: Task; onToggle: () => void; onDelete: () => void }) {
+function TaskRow({ task, onToggle, onPushNext }: { task: Task; onToggle: () => void; onPushNext: () => void }) {
   const done = task.status === "done";
   return (
     <div className={cn(
@@ -424,13 +474,16 @@ function TaskRow({ task, onToggle, onDelete }: { task: Task; onToggle: () => voi
           </span>
         </div>
       </div>
-      <button
-        onClick={onDelete}
-        aria-label={`Delete ${task.title}`}
-        className="opacity-0 group-hover:opacity-100 shrink-0 text-muted-foreground hover:text-danger transition-opacity"
-      >
-        <Trash2 className="h-4 w-4" aria-hidden="true" />
-      </button>
+      {!done && (
+        <button
+          onClick={onPushNext}
+          aria-label={`Move ${task.title} to the next day`}
+          title="Move to next day"
+          className="opacity-0 group-hover:opacity-100 shrink-0 text-muted-foreground hover:text-accent-blue transition-opacity"
+        >
+          <ArrowRightCircle className="h-4 w-4" aria-hidden="true" />
+        </button>
+      )}
     </div>
   );
 }
