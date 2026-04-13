@@ -1,0 +1,32 @@
+{
+  "defaults": {
+    "standard": "WCAG2AA",
+    "timeout": 30000,
+    "wait": 1000,
+    "chromeLaunchConfig": {
+      "args": ["--no-sandbox", "--disable-dev-shm-usage"]
+    },
+    "ignore": [
+      "warning"
+    ]
+  },
+  "urls": [
+    "https://districtaiindex.com/",
+    "https://districtaiindex.com/directory",
+    "https://districtaiindex.com/tool/magicschool-ai",
+    "https://districtaiindex.com/tool/canva",
+    "https://districtaiindex.com/tool/magicschool-ai/report",
+    "https://districtaiindex.com/compare",
+    "https://districtaiindex.com/verified",
+    "https://districtaiindex.com/pricing",
+    "https://districtaiindex.com/submit",
+    "https://districtaiindex.com/about",
+    "https://districtaiindex.com/contact",
+    "https://districtaiindex.com/privacy-policy",
+    "https://districtaiindex.com/terms",
+    "https://districtaiindex.com/accessibility-statement",
+    "https://districtaiindex.com/accessibility-conformance-report",
+    "https://districtaiindex.com/data-practices",
+    "https://districtaiindex.com/editorial-policy"
+  ]
+}

@@ -32,7 +32,7 @@ export function ToolCard({ tool, featured = false }: ToolCardProps) {
       {/* Featured label */}
       {featured && (
         <div className="absolute -top-2.5 left-4">
-          <span className="inline-flex items-center gap-1 rounded-full bg-accent-gold px-2.5 py-0.5 text-[10px] font-bold text-white uppercase tracking-wider">
+          <span className="inline-flex items-center gap-1 rounded-full bg-accent-gold px-2.5 py-0.5 text-[10px] font-bold text-navy uppercase tracking-wider">
             <Star className="h-2.5 w-2.5" aria-hidden="true" /> Featured
           </span>
         </div>
