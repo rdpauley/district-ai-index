@@ -7,6 +7,7 @@ interface CompareContextValue {
   toggle: (id: string) => void;
   remove: (id: string) => void;
   clear: () => void;
+  setIds: (ids: string[]) => void;
   isSelected: (id: string) => boolean;
   count: number;
 }
@@ -30,6 +31,19 @@ export function CompareProvider({ children }: { children: ReactNode }) {
 
   const clear = useCallback(() => setSelectedIds([]), []);
 
+  const setIds = useCallback((ids: string[]) => {
+    // Cap at 4 (matches toggle behavior) and de-dupe.
+    const seen = new Set<string>();
+    const next: string[] = [];
+    for (const id of ids) {
+      if (seen.has(id)) continue;
+      seen.add(id);
+      next.push(id);
+      if (next.length >= 4) break;
+    }
+    setSelectedIds(next);
+  }, []);
+
   const isSelected = useCallback(
     (id: string) => selectedIds.includes(id),
     [selectedIds]
@@ -37,7 +51,7 @@ export function CompareProvider({ children }: { children: ReactNode }) {
 
   return (
     <CompareContext.Provider
-      value={{ selectedIds, toggle, remove, clear, isSelected, count: selectedIds.length }}
+      value={{ selectedIds, toggle, remove, clear, setIds, isSelected, count: selectedIds.length }}
     >
       {children}
     </CompareContext.Provider>

@@ -9,6 +9,10 @@ const footerLinks = {
     { href: "/submit", label: "Submit a Tool" },
   ],
   Resources: [
+    { href: "/find", label: "Find a Tool" },
+    { href: "/scorecard", label: "Custom Scorecard" },
+    { href: "/rfp", label: "RFP Pack" },
+    { href: "/alerts", label: "Change Alerts" },
     { href: "/pricing", label: "Listing Plans" },
     { href: "/dashboard", label: "Dashboard" },
   ],
@@ -19,6 +23,8 @@ const footerLinks = {
     { href: "/terms", label: "Terms of Service" },
   ],
   Compliance: [
+    { href: "/vpat", label: "VPAT Tracker" },
+    { href: "/compliance", label: "State Compliance Guides" },
     { href: "/accessibility-statement", label: "Accessibility Statement" },
     { href: "/accessibility-conformance-report", label: "VPAT / ACR" },
     { href: "/data-practices", label: "Data Practices" },

@@ -1,0 +1,1 @@
+- [User role and project context](user_role.md) — Rachel is both DAI founder AND a working WV district DoT; peer-to-peer voice for K-12 outreach

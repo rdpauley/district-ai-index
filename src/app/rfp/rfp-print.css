@@ -1,0 +1,65 @@
+@media print {
+  @page {
+    size: letter;
+    margin: 0.6in 0.6in 0.75in 0.6in;
+  }
+
+  html, body {
+    background: #ffffff !important;
+    color: #1A1A1A !important;
+  }
+
+  /* Force colors to print (badges, accent rules, etc.) */
+  *, *::before, *::after {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Hide app chrome */
+  header[role="banner"],
+  nav[aria-label="Main navigation"],
+  footer[role="contentinfo"],
+  .skip-link,
+  [aria-label="Compare tools, 0 selected"],
+  [aria-label*="Compare tools"] {
+    display: none !important;
+  }
+
+  /* Page-break controls for the brief */
+  .rfp-doc {
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .page-break-before {
+    page-break-before: always;
+    break-before: page;
+  }
+
+  .rfp-page {
+    page-break-inside: avoid;
+  }
+
+  /* Avoid orphan headings */
+  h2, h3 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  /* Tables cleaner in print */
+  table {
+    page-break-inside: avoid;
+  }
+
+  /* Strip shadows that print as gray boxes */
+  * {
+    box-shadow: none !important;
+  }
+
+  /* Make sure links are still readable in B&W */
+  a {
+    color: #0B1F3A !important;
+    text-decoration: none;
+  }
+}

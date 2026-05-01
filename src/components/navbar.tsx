@@ -18,6 +18,8 @@ import { cn } from "@/lib/utils";
 const navLinks = [
   { href: "/dashboard", label: "Dashboard" },
   { href: "/directory", label: "Directory" },
+  { href: "/find", label: "Find a Tool" },
+  { href: "/scorecard", label: "Scorecard" },
   { href: "/compare", label: "Compare" },
   { href: "/verified", label: "Verified" },
   { href: "/pricing", label: "Pricing" },
@@ -90,13 +92,13 @@ export function Navbar() {
             )}
           </Link>
 
-          <button
+          <Link
+            href="/admin/login"
             className="hidden sm:flex items-center gap-1.5 rounded-lg border border-border px-3 py-2 text-xs font-medium text-charcoal-light hover:bg-navy-50 hover:text-navy transition-colors"
-            aria-label="User account"
           >
             <User className="h-4 w-4" aria-hidden="true" />
-            <span>Sign In</span>
-          </button>
+            <span>Admin</span>
+          </Link>
 
           {/* Mobile hamburger */}
           <button
