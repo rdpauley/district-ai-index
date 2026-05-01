@@ -32,6 +32,21 @@ service cloud.firestore {
       allow read: if true;
       allow write: if false;
     }
+    // Tool change alerts — admin SDK only (API routes write; clients read nothing)
+    match /tool_alerts/{docId} {
+      allow read, write: if false;
+    }
+    match /tool_snapshots/{docId} {
+      allow read, write: if false;
+    }
+    // Vendor claims & analytics events — admin SDK only
+    match /vendor_claims/{docId} {
+      allow read, write: if false;
+    }
+    match /tool_events/{docId} {
+      allow read, write: if false;
+    }
+
     // CRM collections — admin-only (service role bypasses these rules)
     match /contacts/{docId} {
       allow read, write: if false;
